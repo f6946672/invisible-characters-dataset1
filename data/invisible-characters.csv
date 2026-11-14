@@ -1,0 +1,413 @@
+character,codepoint,unicode_name,category,group,html_entity,named_entity,notes
+ ,U+0020,SPACE,Zs,Spaces,&#x20;,,The ordinary space. Every other entry in this dataset is measured against it; several of the exotic spaces below fold back to it under NFKC normalization.
+ ,U+00A0,NO-BREAK SPACE,Zs,Spaces,&#xA0;,&nbsp;,A space that will not break a line. The one people paste by accident most often.
+­,U+00AD,SOFT HYPHEN,Cf,Format characters,&#xAD;,&shy;,Marks where a word may break. Only becomes visible if the line actually breaks there.
+͏,U+034F,COMBINING GRAPHEME JOINER,Mn,Zero-width and joiners,&#x34F;,,Ties two characters together so they behave as one grapheme.
+؜,U+061C,ARABIC LETTER MARK,Cf,Bidirectional controls,&#x61C;,,Bidirectional mark used with Arabic script.
+ᅟ,U+115F,HANGUL CHOSEONG FILLER,Lo,Fillers and blanks,&#x115F;,,"Hangul filler with the advance width of a full syllable block and no ink (0 px painted, 16 px advance in the site's measurements). Used for blank-looking usernames and nicknames."
+ᅠ,U+1160,HANGUL JUNGSEONG FILLER,Lo,Fillers and blanks,&#x1160;,,"Hangul filler with the advance width of a full syllable block and no ink (0 px painted, 16 px advance in the site's measurements). Used for blank-looking usernames and nicknames."
+᠋,U+180B,MONGOLIAN FREE VARIATION SELECTOR ONE,Mn,Mongolian free variation selectors,&#x180B;,,Select a glyph shape in Mongolian.
+᠌,U+180C,MONGOLIAN FREE VARIATION SELECTOR TWO,Mn,Mongolian free variation selectors,&#x180C;,,Select a glyph shape in Mongolian.
+᠍,U+180D,MONGOLIAN FREE VARIATION SELECTOR THREE,Mn,Mongolian free variation selectors,&#x180D;,,Select a glyph shape in Mongolian.
+᠎,U+180E,MONGOLIAN VOWEL SEPARATOR,Cf,Format characters,&#x180E;,,A Mongolian separator that renders as nothing in most fonts. Classed as a space (Zs) before Unicode 6.3 moved it to format (Cf); many cleanup patterns still miss it.
+ ,U+2000,EN QUAD,Zs,Spaces,&#x2000;,,"One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+ ,U+2001,EM QUAD,Zs,Spaces,&#x2001;,,"One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+ ,U+2002,EN SPACE,Zs,Spaces,&#x2002;,&ensp;,"One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+ ,U+2003,EM SPACE,Zs,Spaces,&#x2003;,&emsp;,"One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+ ,U+2004,THREE-PER-EM SPACE,Zs,Spaces,&#x2004;,&emsp13;,"One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+ ,U+2005,FOUR-PER-EM SPACE,Zs,Spaces,&#x2005;,&emsp14;,"One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+ ,U+2006,SIX-PER-EM SPACE,Zs,Spaces,&#x2006;,,"One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+ ,U+2007,FIGURE SPACE,Zs,Spaces,&#x2007;,&numsp;,"One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+ ,U+2008,PUNCTUATION SPACE,Zs,Spaces,&#x2008;,&puncsp;,"One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+ ,U+2009,THIN SPACE,Zs,Spaces,&#x2009;,&thinsp;,"One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+ ,U+200A,HAIR SPACE,Zs,Spaces,&#x200A;,&hairsp;,"One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+​,U+200B,ZERO WIDTH SPACE,Cf,Zero-width and joiners,&#x200B;,&ZeroWidthSpace;,"Lets a browser break a long word. Invisible, survives copy and paste, and the most common hidden character there is."
+‌,U+200C,ZERO WIDTH NON-JOINER,Cf,Zero-width and joiners,&#x200C;,&zwnj;,"Stops a join. Required for correct Persian, Arabic and Devanagari text."
+‍,U+200D,ZERO WIDTH JOINER,Cf,Zero-width and joiners,&#x200D;,&zwj;,Joins characters. This is what holds an emoji family together as one picture.
+‎,U+200E,LEFT-TO-RIGHT MARK,Cf,Bidirectional controls,&#x200E;,&lrm;,Forces left-to-right direction for the characters after it.
+‏,U+200F,RIGHT-TO-LEFT MARK,Cf,Bidirectional controls,&#x200F;,&rlm;,Forces right-to-left direction for the characters after it.
+ ,U+2028,LINE SEPARATOR,Zl,Separators,&#x2028;,,"A line break that is not a newline character. Modern JSON parsers accept it, but older parsers and strict string handling still trip on it."
+ ,U+2029,PARAGRAPH SEPARATOR,Zp,Separators,&#x2029;,,A paragraph break that is not a newline character. Same parsing caveat as U+2028.
+‪,U+202A,LEFT-TO-RIGHT EMBEDDING,Cf,Bidirectional controls,&#x202A;,,One of the five bidi embedding/override characters that set text direction. Safe to delete only in matched pairs.
+‫,U+202B,RIGHT-TO-LEFT EMBEDDING,Cf,Bidirectional controls,&#x202B;,,One of the five bidi embedding/override characters that set text direction. Safe to delete only in matched pairs.
+‬,U+202C,POP DIRECTIONAL FORMATTING,Cf,Bidirectional controls,&#x202C;,,One of the five bidi embedding/override characters that set text direction. Safe to delete only in matched pairs.
+‭,U+202D,LEFT-TO-RIGHT OVERRIDE,Cf,Bidirectional controls,&#x202D;,,One of the five bidi embedding/override characters that set text direction. Safe to delete only in matched pairs.
+‮,U+202E,RIGHT-TO-LEFT OVERRIDE,Cf,Bidirectional controls,&#x202E;,,One of the five bidi embedding/override characters that set text direction. Safe to delete only in matched pairs.
+ ,U+202F,NARROW NO-BREAK SPACE,Zs,Spaces,&#x202F;,,"A thin unbreakable space, used before units and currency in French typography."
+ ,U+205F,MEDIUM MATHEMATICAL SPACE,Zs,Spaces,&#x205F;,&MediumSpace;,A medium space for use inside formulas.
+⁠,U+2060,WORD JOINER,Cf,Zero-width and joiners,&#x2060;,&NoBreak;,Stops a line break between two words without drawing anything.
+⁡,U+2061,FUNCTION APPLICATION,Cf,Format characters,&#x2061;,&af;,"An invisible function-application operator, meaningful only inside mathematical notation."
+⁢,U+2062,INVISIBLE TIMES,Cf,Format characters,&#x2062;,&it;,"An invisible multiplication operator, meaningful only inside mathematical notation."
+⁣,U+2063,INVISIBLE SEPARATOR,Cf,Format characters,&#x2063;,&ic;,"An invisible separator (as in a long number grouped without commas), meaningful only inside mathematical notation."
+⁤,U+2064,INVISIBLE PLUS,Cf,Format characters,&#x2064;,,"An invisible addition operator, meaningful only inside mathematical notation."
+⁦,U+2066,LEFT-TO-RIGHT ISOLATE,Cf,Bidirectional controls,&#x2066;,,One of the four bidi isolate characters that isolate a run of text from its surroundings.
+⁧,U+2067,RIGHT-TO-LEFT ISOLATE,Cf,Bidirectional controls,&#x2067;,,One of the four bidi isolate characters that isolate a run of text from its surroundings.
+⁨,U+2068,FIRST STRONG ISOLATE,Cf,Bidirectional controls,&#x2068;,,One of the four bidi isolate characters that isolate a run of text from its surroundings.
+⁩,U+2069,POP DIRECTIONAL ISOLATE,Cf,Bidirectional controls,&#x2069;,,One of the four bidi isolate characters that isolate a run of text from its surroundings.
+⁪,U+206A,INHIBIT SYMMETRIC SWAPPING,Cf,Deprecated format controls,&#x206A;,,"Deprecated format control, retained for legacy text. Renders as nothing."
+⁫,U+206B,ACTIVATE SYMMETRIC SWAPPING,Cf,Deprecated format controls,&#x206B;,,"Deprecated format control, retained for legacy text. Renders as nothing."
+⁬,U+206C,INHIBIT ARABIC FORM SHAPING,Cf,Deprecated format controls,&#x206C;,,"Deprecated format control, retained for legacy text. Renders as nothing."
+⁭,U+206D,ACTIVATE ARABIC FORM SHAPING,Cf,Deprecated format controls,&#x206D;,,"Deprecated format control, retained for legacy text. Renders as nothing."
+⁮,U+206E,NATIONAL DIGIT SHAPES,Cf,Deprecated format controls,&#x206E;,,"Deprecated format control, retained for legacy text. Renders as nothing."
+⁯,U+206F,NOMINAL DIGIT SHAPES,Cf,Deprecated format controls,&#x206F;,,"Deprecated format control, retained for legacy text. Renders as nothing."
+⠀,U+2800,BRAILLE PATTERN BLANK,So,Fillers and blanks,&#x2800;,,"A Braille cell with no dots raised. Paints nothing but takes real width (about 10.4 px in the site's measurements), so it survives filters that strip zero-width characters."
+　,U+3000,IDEOGRAPHIC SPACE,Zs,Spaces,&#x3000;,,A full-width space that matches the width of a CJK character.
+ㅤ,U+3164,HANGUL FILLER,Lo,Fillers and blanks,&#x3164;,,Hangul filler: a full-width blank. The site's tests show it folding to U+1160 under NFKC while surviving trim and strip.
+︀,U+FE00,VARIATION SELECTOR-1,Mn,Variation selectors,&#xFE00;,,Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji.
+︁,U+FE01,VARIATION SELECTOR-2,Mn,Variation selectors,&#xFE01;,,Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji.
+︂,U+FE02,VARIATION SELECTOR-3,Mn,Variation selectors,&#xFE02;,,Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji.
+︃,U+FE03,VARIATION SELECTOR-4,Mn,Variation selectors,&#xFE03;,,Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji.
+︄,U+FE04,VARIATION SELECTOR-5,Mn,Variation selectors,&#xFE04;,,Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji.
+︅,U+FE05,VARIATION SELECTOR-6,Mn,Variation selectors,&#xFE05;,,Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji.
+︆,U+FE06,VARIATION SELECTOR-7,Mn,Variation selectors,&#xFE06;,,Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji.
+︇,U+FE07,VARIATION SELECTOR-8,Mn,Variation selectors,&#xFE07;,,Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji.
+︈,U+FE08,VARIATION SELECTOR-9,Mn,Variation selectors,&#xFE08;,,Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji.
+︉,U+FE09,VARIATION SELECTOR-10,Mn,Variation selectors,&#xFE09;,,Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji.
+︊,U+FE0A,VARIATION SELECTOR-11,Mn,Variation selectors,&#xFE0A;,,Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji.
+︋,U+FE0B,VARIATION SELECTOR-12,Mn,Variation selectors,&#xFE0B;,,Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji.
+︌,U+FE0C,VARIATION SELECTOR-13,Mn,Variation selectors,&#xFE0C;,,Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji.
+︍,U+FE0D,VARIATION SELECTOR-14,Mn,Variation selectors,&#xFE0D;,,Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji.
+︎,U+FE0E,VARIATION SELECTOR-15,Mn,Variation selectors,&#xFE0E;,,Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji.
+️,U+FE0F,VARIATION SELECTOR-16,Mn,Variation selectors,&#xFE0F;,,Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji.
+﻿,U+FEFF,ZERO WIDTH NO-BREAK SPACE,Cf,Zero-width and joiners,&#xFEFF;,,A byte order mark at the start of a file. Invisible and unwanted anywhere else.
+ﾠ,U+FFA0,HALFWIDTH HANGUL FILLER,Lo,Fillers and blanks,&#xFFA0;,,"Halfwidth Hangul filler (0 px painted, 8 px advance in the site's measurements). Used for blank-looking nicknames."
+￹,U+FFF9,INTERLINEAR ANNOTATION ANCHOR,Cf,Format characters,&#xFFF9;,,Starts an interlinear (ruby-style) annotation run. Rarely intended in plain text.
+￺,U+FFFA,INTERLINEAR ANNOTATION SEPARATOR,Cf,Format characters,&#xFFFA;,,Separates an interlinear annotation from its base text. Rarely intended in plain text.
+￻,U+FFFB,INTERLINEAR ANNOTATION TERMINATOR,Cf,Format characters,&#xFFFB;,,Ends an interlinear annotation run. Rarely intended in plain text.
+󠀁,U+E0001,LANGUAGE TAG,Cf,Tag characters,&#xE0001;,,"Part of the tag character block, used to label language inside a string."
+󠀠,U+E0020,TAG SPACE,Cf,Tag characters,&#xE0020;,,Tag character mirroring ASCII SPACE. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀡,U+E0021,TAG EXCLAMATION MARK,Cf,Tag characters,&#xE0021;,,Tag character mirroring ASCII EXCLAMATION MARK. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀢,U+E0022,TAG QUOTATION MARK,Cf,Tag characters,&#xE0022;,,Tag character mirroring ASCII QUOTATION MARK. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀣,U+E0023,TAG NUMBER SIGN,Cf,Tag characters,&#xE0023;,,Tag character mirroring ASCII NUMBER SIGN. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀤,U+E0024,TAG DOLLAR SIGN,Cf,Tag characters,&#xE0024;,,Tag character mirroring ASCII DOLLAR SIGN. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀥,U+E0025,TAG PERCENT SIGN,Cf,Tag characters,&#xE0025;,,Tag character mirroring ASCII PERCENT SIGN. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀦,U+E0026,TAG AMPERSAND,Cf,Tag characters,&#xE0026;,,Tag character mirroring ASCII AMPERSAND. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀧,U+E0027,TAG APOSTROPHE,Cf,Tag characters,&#xE0027;,,Tag character mirroring ASCII APOSTROPHE. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀨,U+E0028,TAG LEFT PARENTHESIS,Cf,Tag characters,&#xE0028;,,Tag character mirroring ASCII LEFT PARENTHESIS. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀩,U+E0029,TAG RIGHT PARENTHESIS,Cf,Tag characters,&#xE0029;,,Tag character mirroring ASCII RIGHT PARENTHESIS. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀪,U+E002A,TAG ASTERISK,Cf,Tag characters,&#xE002A;,,Tag character mirroring ASCII ASTERISK. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀫,U+E002B,TAG PLUS SIGN,Cf,Tag characters,&#xE002B;,,Tag character mirroring ASCII PLUS SIGN. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀬,U+E002C,TAG COMMA,Cf,Tag characters,&#xE002C;,,Tag character mirroring ASCII COMMA. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀭,U+E002D,TAG HYPHEN-MINUS,Cf,Tag characters,&#xE002D;,,Tag character mirroring ASCII HYPHEN-MINUS. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀮,U+E002E,TAG FULL STOP,Cf,Tag characters,&#xE002E;,,Tag character mirroring ASCII FULL STOP. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀯,U+E002F,TAG SOLIDUS,Cf,Tag characters,&#xE002F;,,Tag character mirroring ASCII SOLIDUS. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀰,U+E0030,TAG DIGIT ZERO,Cf,Tag characters,&#xE0030;,,Tag character mirroring ASCII DIGIT ZERO. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀱,U+E0031,TAG DIGIT ONE,Cf,Tag characters,&#xE0031;,,Tag character mirroring ASCII DIGIT ONE. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀲,U+E0032,TAG DIGIT TWO,Cf,Tag characters,&#xE0032;,,Tag character mirroring ASCII DIGIT TWO. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀳,U+E0033,TAG DIGIT THREE,Cf,Tag characters,&#xE0033;,,Tag character mirroring ASCII DIGIT THREE. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀴,U+E0034,TAG DIGIT FOUR,Cf,Tag characters,&#xE0034;,,Tag character mirroring ASCII DIGIT FOUR. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀵,U+E0035,TAG DIGIT FIVE,Cf,Tag characters,&#xE0035;,,Tag character mirroring ASCII DIGIT FIVE. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀶,U+E0036,TAG DIGIT SIX,Cf,Tag characters,&#xE0036;,,Tag character mirroring ASCII DIGIT SIX. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀷,U+E0037,TAG DIGIT SEVEN,Cf,Tag characters,&#xE0037;,,Tag character mirroring ASCII DIGIT SEVEN. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀸,U+E0038,TAG DIGIT EIGHT,Cf,Tag characters,&#xE0038;,,Tag character mirroring ASCII DIGIT EIGHT. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀹,U+E0039,TAG DIGIT NINE,Cf,Tag characters,&#xE0039;,,Tag character mirroring ASCII DIGIT NINE. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀺,U+E003A,TAG COLON,Cf,Tag characters,&#xE003A;,,Tag character mirroring ASCII COLON. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀻,U+E003B,TAG SEMICOLON,Cf,Tag characters,&#xE003B;,,Tag character mirroring ASCII SEMICOLON. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀼,U+E003C,TAG LESS-THAN SIGN,Cf,Tag characters,&#xE003C;,,Tag character mirroring ASCII LESS-THAN SIGN. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀽,U+E003D,TAG EQUALS SIGN,Cf,Tag characters,&#xE003D;,,Tag character mirroring ASCII EQUALS SIGN. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀾,U+E003E,TAG GREATER-THAN SIGN,Cf,Tag characters,&#xE003E;,,Tag character mirroring ASCII GREATER-THAN SIGN. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠀿,U+E003F,TAG QUESTION MARK,Cf,Tag characters,&#xE003F;,,Tag character mirroring ASCII QUESTION MARK. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁀,U+E0040,TAG COMMERCIAL AT,Cf,Tag characters,&#xE0040;,,Tag character mirroring ASCII COMMERCIAL AT. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁁,U+E0041,TAG LATIN CAPITAL LETTER A,Cf,Tag characters,&#xE0041;,,Tag character mirroring ASCII LATIN CAPITAL LETTER A. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁂,U+E0042,TAG LATIN CAPITAL LETTER B,Cf,Tag characters,&#xE0042;,,Tag character mirroring ASCII LATIN CAPITAL LETTER B. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁃,U+E0043,TAG LATIN CAPITAL LETTER C,Cf,Tag characters,&#xE0043;,,Tag character mirroring ASCII LATIN CAPITAL LETTER C. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁄,U+E0044,TAG LATIN CAPITAL LETTER D,Cf,Tag characters,&#xE0044;,,Tag character mirroring ASCII LATIN CAPITAL LETTER D. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁅,U+E0045,TAG LATIN CAPITAL LETTER E,Cf,Tag characters,&#xE0045;,,Tag character mirroring ASCII LATIN CAPITAL LETTER E. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁆,U+E0046,TAG LATIN CAPITAL LETTER F,Cf,Tag characters,&#xE0046;,,Tag character mirroring ASCII LATIN CAPITAL LETTER F. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁇,U+E0047,TAG LATIN CAPITAL LETTER G,Cf,Tag characters,&#xE0047;,,Tag character mirroring ASCII LATIN CAPITAL LETTER G. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁈,U+E0048,TAG LATIN CAPITAL LETTER H,Cf,Tag characters,&#xE0048;,,Tag character mirroring ASCII LATIN CAPITAL LETTER H. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁉,U+E0049,TAG LATIN CAPITAL LETTER I,Cf,Tag characters,&#xE0049;,,Tag character mirroring ASCII LATIN CAPITAL LETTER I. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁊,U+E004A,TAG LATIN CAPITAL LETTER J,Cf,Tag characters,&#xE004A;,,Tag character mirroring ASCII LATIN CAPITAL LETTER J. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁋,U+E004B,TAG LATIN CAPITAL LETTER K,Cf,Tag characters,&#xE004B;,,Tag character mirroring ASCII LATIN CAPITAL LETTER K. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁌,U+E004C,TAG LATIN CAPITAL LETTER L,Cf,Tag characters,&#xE004C;,,Tag character mirroring ASCII LATIN CAPITAL LETTER L. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁍,U+E004D,TAG LATIN CAPITAL LETTER M,Cf,Tag characters,&#xE004D;,,Tag character mirroring ASCII LATIN CAPITAL LETTER M. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁎,U+E004E,TAG LATIN CAPITAL LETTER N,Cf,Tag characters,&#xE004E;,,Tag character mirroring ASCII LATIN CAPITAL LETTER N. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁏,U+E004F,TAG LATIN CAPITAL LETTER O,Cf,Tag characters,&#xE004F;,,Tag character mirroring ASCII LATIN CAPITAL LETTER O. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁐,U+E0050,TAG LATIN CAPITAL LETTER P,Cf,Tag characters,&#xE0050;,,Tag character mirroring ASCII LATIN CAPITAL LETTER P. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁑,U+E0051,TAG LATIN CAPITAL LETTER Q,Cf,Tag characters,&#xE0051;,,Tag character mirroring ASCII LATIN CAPITAL LETTER Q. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁒,U+E0052,TAG LATIN CAPITAL LETTER R,Cf,Tag characters,&#xE0052;,,Tag character mirroring ASCII LATIN CAPITAL LETTER R. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁓,U+E0053,TAG LATIN CAPITAL LETTER S,Cf,Tag characters,&#xE0053;,,Tag character mirroring ASCII LATIN CAPITAL LETTER S. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁔,U+E0054,TAG LATIN CAPITAL LETTER T,Cf,Tag characters,&#xE0054;,,Tag character mirroring ASCII LATIN CAPITAL LETTER T. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁕,U+E0055,TAG LATIN CAPITAL LETTER U,Cf,Tag characters,&#xE0055;,,Tag character mirroring ASCII LATIN CAPITAL LETTER U. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁖,U+E0056,TAG LATIN CAPITAL LETTER V,Cf,Tag characters,&#xE0056;,,Tag character mirroring ASCII LATIN CAPITAL LETTER V. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁗,U+E0057,TAG LATIN CAPITAL LETTER W,Cf,Tag characters,&#xE0057;,,Tag character mirroring ASCII LATIN CAPITAL LETTER W. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁘,U+E0058,TAG LATIN CAPITAL LETTER X,Cf,Tag characters,&#xE0058;,,Tag character mirroring ASCII LATIN CAPITAL LETTER X. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁙,U+E0059,TAG LATIN CAPITAL LETTER Y,Cf,Tag characters,&#xE0059;,,Tag character mirroring ASCII LATIN CAPITAL LETTER Y. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁚,U+E005A,TAG LATIN CAPITAL LETTER Z,Cf,Tag characters,&#xE005A;,,Tag character mirroring ASCII LATIN CAPITAL LETTER Z. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁛,U+E005B,TAG LEFT SQUARE BRACKET,Cf,Tag characters,&#xE005B;,,Tag character mirroring ASCII LEFT SQUARE BRACKET. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁜,U+E005C,TAG REVERSE SOLIDUS,Cf,Tag characters,&#xE005C;,,Tag character mirroring ASCII REVERSE SOLIDUS. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁝,U+E005D,TAG RIGHT SQUARE BRACKET,Cf,Tag characters,&#xE005D;,,Tag character mirroring ASCII RIGHT SQUARE BRACKET. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁞,U+E005E,TAG CIRCUMFLEX ACCENT,Cf,Tag characters,&#xE005E;,,Tag character mirroring ASCII CIRCUMFLEX ACCENT. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁟,U+E005F,TAG LOW LINE,Cf,Tag characters,&#xE005F;,,Tag character mirroring ASCII LOW LINE. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁠,U+E0060,TAG GRAVE ACCENT,Cf,Tag characters,&#xE0060;,,Tag character mirroring ASCII GRAVE ACCENT. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁡,U+E0061,TAG LATIN SMALL LETTER A,Cf,Tag characters,&#xE0061;,,Tag character mirroring ASCII LATIN SMALL LETTER A. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁢,U+E0062,TAG LATIN SMALL LETTER B,Cf,Tag characters,&#xE0062;,,Tag character mirroring ASCII LATIN SMALL LETTER B. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁣,U+E0063,TAG LATIN SMALL LETTER C,Cf,Tag characters,&#xE0063;,,Tag character mirroring ASCII LATIN SMALL LETTER C. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁤,U+E0064,TAG LATIN SMALL LETTER D,Cf,Tag characters,&#xE0064;,,Tag character mirroring ASCII LATIN SMALL LETTER D. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁥,U+E0065,TAG LATIN SMALL LETTER E,Cf,Tag characters,&#xE0065;,,Tag character mirroring ASCII LATIN SMALL LETTER E. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁦,U+E0066,TAG LATIN SMALL LETTER F,Cf,Tag characters,&#xE0066;,,Tag character mirroring ASCII LATIN SMALL LETTER F. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁧,U+E0067,TAG LATIN SMALL LETTER G,Cf,Tag characters,&#xE0067;,,Tag character mirroring ASCII LATIN SMALL LETTER G. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁨,U+E0068,TAG LATIN SMALL LETTER H,Cf,Tag characters,&#xE0068;,,Tag character mirroring ASCII LATIN SMALL LETTER H. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁩,U+E0069,TAG LATIN SMALL LETTER I,Cf,Tag characters,&#xE0069;,,Tag character mirroring ASCII LATIN SMALL LETTER I. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁪,U+E006A,TAG LATIN SMALL LETTER J,Cf,Tag characters,&#xE006A;,,Tag character mirroring ASCII LATIN SMALL LETTER J. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁫,U+E006B,TAG LATIN SMALL LETTER K,Cf,Tag characters,&#xE006B;,,Tag character mirroring ASCII LATIN SMALL LETTER K. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁬,U+E006C,TAG LATIN SMALL LETTER L,Cf,Tag characters,&#xE006C;,,Tag character mirroring ASCII LATIN SMALL LETTER L. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁭,U+E006D,TAG LATIN SMALL LETTER M,Cf,Tag characters,&#xE006D;,,Tag character mirroring ASCII LATIN SMALL LETTER M. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁮,U+E006E,TAG LATIN SMALL LETTER N,Cf,Tag characters,&#xE006E;,,Tag character mirroring ASCII LATIN SMALL LETTER N. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁯,U+E006F,TAG LATIN SMALL LETTER O,Cf,Tag characters,&#xE006F;,,Tag character mirroring ASCII LATIN SMALL LETTER O. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁰,U+E0070,TAG LATIN SMALL LETTER P,Cf,Tag characters,&#xE0070;,,Tag character mirroring ASCII LATIN SMALL LETTER P. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁱,U+E0071,TAG LATIN SMALL LETTER Q,Cf,Tag characters,&#xE0071;,,Tag character mirroring ASCII LATIN SMALL LETTER Q. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁲,U+E0072,TAG LATIN SMALL LETTER R,Cf,Tag characters,&#xE0072;,,Tag character mirroring ASCII LATIN SMALL LETTER R. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁳,U+E0073,TAG LATIN SMALL LETTER S,Cf,Tag characters,&#xE0073;,,Tag character mirroring ASCII LATIN SMALL LETTER S. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁴,U+E0074,TAG LATIN SMALL LETTER T,Cf,Tag characters,&#xE0074;,,Tag character mirroring ASCII LATIN SMALL LETTER T. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁵,U+E0075,TAG LATIN SMALL LETTER U,Cf,Tag characters,&#xE0075;,,Tag character mirroring ASCII LATIN SMALL LETTER U. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁶,U+E0076,TAG LATIN SMALL LETTER V,Cf,Tag characters,&#xE0076;,,Tag character mirroring ASCII LATIN SMALL LETTER V. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁷,U+E0077,TAG LATIN SMALL LETTER W,Cf,Tag characters,&#xE0077;,,Tag character mirroring ASCII LATIN SMALL LETTER W. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁸,U+E0078,TAG LATIN SMALL LETTER X,Cf,Tag characters,&#xE0078;,,Tag character mirroring ASCII LATIN SMALL LETTER X. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁹,U+E0079,TAG LATIN SMALL LETTER Y,Cf,Tag characters,&#xE0079;,,Tag character mirroring ASCII LATIN SMALL LETTER Y. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁺,U+E007A,TAG LATIN SMALL LETTER Z,Cf,Tag characters,&#xE007A;,,Tag character mirroring ASCII LATIN SMALL LETTER Z. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁻,U+E007B,TAG LEFT CURLY BRACKET,Cf,Tag characters,&#xE007B;,,Tag character mirroring ASCII LEFT CURLY BRACKET. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁼,U+E007C,TAG VERTICAL LINE,Cf,Tag characters,&#xE007C;,,Tag character mirroring ASCII VERTICAL LINE. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁽,U+E007D,TAG RIGHT CURLY BRACKET,Cf,Tag characters,&#xE007D;,,Tag character mirroring ASCII RIGHT CURLY BRACKET. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁾,U+E007E,TAG TILDE,Cf,Tag characters,&#xE007E;,,Tag character mirroring ASCII TILDE. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output.
+󠁿,U+E007F,CANCEL TAG,Cf,Tag characters,&#xE007F;,,Cancels (terminates) a sequence of tag characters.
+󠄀,U+E0100,VARIATION SELECTOR-17,Mn,Variation selectors supplement,&#xE0100;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄁,U+E0101,VARIATION SELECTOR-18,Mn,Variation selectors supplement,&#xE0101;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄂,U+E0102,VARIATION SELECTOR-19,Mn,Variation selectors supplement,&#xE0102;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄃,U+E0103,VARIATION SELECTOR-20,Mn,Variation selectors supplement,&#xE0103;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄄,U+E0104,VARIATION SELECTOR-21,Mn,Variation selectors supplement,&#xE0104;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄅,U+E0105,VARIATION SELECTOR-22,Mn,Variation selectors supplement,&#xE0105;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄆,U+E0106,VARIATION SELECTOR-23,Mn,Variation selectors supplement,&#xE0106;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄇,U+E0107,VARIATION SELECTOR-24,Mn,Variation selectors supplement,&#xE0107;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄈,U+E0108,VARIATION SELECTOR-25,Mn,Variation selectors supplement,&#xE0108;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄉,U+E0109,VARIATION SELECTOR-26,Mn,Variation selectors supplement,&#xE0109;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄊,U+E010A,VARIATION SELECTOR-27,Mn,Variation selectors supplement,&#xE010A;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄋,U+E010B,VARIATION SELECTOR-28,Mn,Variation selectors supplement,&#xE010B;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄌,U+E010C,VARIATION SELECTOR-29,Mn,Variation selectors supplement,&#xE010C;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄍,U+E010D,VARIATION SELECTOR-30,Mn,Variation selectors supplement,&#xE010D;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄎,U+E010E,VARIATION SELECTOR-31,Mn,Variation selectors supplement,&#xE010E;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄏,U+E010F,VARIATION SELECTOR-32,Mn,Variation selectors supplement,&#xE010F;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄐,U+E0110,VARIATION SELECTOR-33,Mn,Variation selectors supplement,&#xE0110;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄑,U+E0111,VARIATION SELECTOR-34,Mn,Variation selectors supplement,&#xE0111;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄒,U+E0112,VARIATION SELECTOR-35,Mn,Variation selectors supplement,&#xE0112;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄓,U+E0113,VARIATION SELECTOR-36,Mn,Variation selectors supplement,&#xE0113;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄔,U+E0114,VARIATION SELECTOR-37,Mn,Variation selectors supplement,&#xE0114;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄕,U+E0115,VARIATION SELECTOR-38,Mn,Variation selectors supplement,&#xE0115;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄖,U+E0116,VARIATION SELECTOR-39,Mn,Variation selectors supplement,&#xE0116;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄗,U+E0117,VARIATION SELECTOR-40,Mn,Variation selectors supplement,&#xE0117;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄘,U+E0118,VARIATION SELECTOR-41,Mn,Variation selectors supplement,&#xE0118;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄙,U+E0119,VARIATION SELECTOR-42,Mn,Variation selectors supplement,&#xE0119;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄚,U+E011A,VARIATION SELECTOR-43,Mn,Variation selectors supplement,&#xE011A;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄛,U+E011B,VARIATION SELECTOR-44,Mn,Variation selectors supplement,&#xE011B;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄜,U+E011C,VARIATION SELECTOR-45,Mn,Variation selectors supplement,&#xE011C;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄝,U+E011D,VARIATION SELECTOR-46,Mn,Variation selectors supplement,&#xE011D;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄞,U+E011E,VARIATION SELECTOR-47,Mn,Variation selectors supplement,&#xE011E;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄟,U+E011F,VARIATION SELECTOR-48,Mn,Variation selectors supplement,&#xE011F;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄠,U+E0120,VARIATION SELECTOR-49,Mn,Variation selectors supplement,&#xE0120;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄡,U+E0121,VARIATION SELECTOR-50,Mn,Variation selectors supplement,&#xE0121;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄢,U+E0122,VARIATION SELECTOR-51,Mn,Variation selectors supplement,&#xE0122;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄣,U+E0123,VARIATION SELECTOR-52,Mn,Variation selectors supplement,&#xE0123;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄤,U+E0124,VARIATION SELECTOR-53,Mn,Variation selectors supplement,&#xE0124;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄥,U+E0125,VARIATION SELECTOR-54,Mn,Variation selectors supplement,&#xE0125;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄦,U+E0126,VARIATION SELECTOR-55,Mn,Variation selectors supplement,&#xE0126;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄧,U+E0127,VARIATION SELECTOR-56,Mn,Variation selectors supplement,&#xE0127;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄨,U+E0128,VARIATION SELECTOR-57,Mn,Variation selectors supplement,&#xE0128;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄩,U+E0129,VARIATION SELECTOR-58,Mn,Variation selectors supplement,&#xE0129;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄪,U+E012A,VARIATION SELECTOR-59,Mn,Variation selectors supplement,&#xE012A;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄫,U+E012B,VARIATION SELECTOR-60,Mn,Variation selectors supplement,&#xE012B;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄬,U+E012C,VARIATION SELECTOR-61,Mn,Variation selectors supplement,&#xE012C;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄭,U+E012D,VARIATION SELECTOR-62,Mn,Variation selectors supplement,&#xE012D;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄮,U+E012E,VARIATION SELECTOR-63,Mn,Variation selectors supplement,&#xE012E;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄯,U+E012F,VARIATION SELECTOR-64,Mn,Variation selectors supplement,&#xE012F;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄰,U+E0130,VARIATION SELECTOR-65,Mn,Variation selectors supplement,&#xE0130;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄱,U+E0131,VARIATION SELECTOR-66,Mn,Variation selectors supplement,&#xE0131;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄲,U+E0132,VARIATION SELECTOR-67,Mn,Variation selectors supplement,&#xE0132;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄳,U+E0133,VARIATION SELECTOR-68,Mn,Variation selectors supplement,&#xE0133;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄴,U+E0134,VARIATION SELECTOR-69,Mn,Variation selectors supplement,&#xE0134;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄵,U+E0135,VARIATION SELECTOR-70,Mn,Variation selectors supplement,&#xE0135;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄶,U+E0136,VARIATION SELECTOR-71,Mn,Variation selectors supplement,&#xE0136;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄷,U+E0137,VARIATION SELECTOR-72,Mn,Variation selectors supplement,&#xE0137;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄸,U+E0138,VARIATION SELECTOR-73,Mn,Variation selectors supplement,&#xE0138;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄹,U+E0139,VARIATION SELECTOR-74,Mn,Variation selectors supplement,&#xE0139;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄺,U+E013A,VARIATION SELECTOR-75,Mn,Variation selectors supplement,&#xE013A;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄻,U+E013B,VARIATION SELECTOR-76,Mn,Variation selectors supplement,&#xE013B;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄼,U+E013C,VARIATION SELECTOR-77,Mn,Variation selectors supplement,&#xE013C;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄽,U+E013D,VARIATION SELECTOR-78,Mn,Variation selectors supplement,&#xE013D;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄾,U+E013E,VARIATION SELECTOR-79,Mn,Variation selectors supplement,&#xE013E;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠄿,U+E013F,VARIATION SELECTOR-80,Mn,Variation selectors supplement,&#xE013F;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅀,U+E0140,VARIATION SELECTOR-81,Mn,Variation selectors supplement,&#xE0140;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅁,U+E0141,VARIATION SELECTOR-82,Mn,Variation selectors supplement,&#xE0141;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅂,U+E0142,VARIATION SELECTOR-83,Mn,Variation selectors supplement,&#xE0142;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅃,U+E0143,VARIATION SELECTOR-84,Mn,Variation selectors supplement,&#xE0143;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅄,U+E0144,VARIATION SELECTOR-85,Mn,Variation selectors supplement,&#xE0144;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅅,U+E0145,VARIATION SELECTOR-86,Mn,Variation selectors supplement,&#xE0145;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅆,U+E0146,VARIATION SELECTOR-87,Mn,Variation selectors supplement,&#xE0146;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅇,U+E0147,VARIATION SELECTOR-88,Mn,Variation selectors supplement,&#xE0147;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅈,U+E0148,VARIATION SELECTOR-89,Mn,Variation selectors supplement,&#xE0148;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅉,U+E0149,VARIATION SELECTOR-90,Mn,Variation selectors supplement,&#xE0149;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅊,U+E014A,VARIATION SELECTOR-91,Mn,Variation selectors supplement,&#xE014A;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅋,U+E014B,VARIATION SELECTOR-92,Mn,Variation selectors supplement,&#xE014B;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅌,U+E014C,VARIATION SELECTOR-93,Mn,Variation selectors supplement,&#xE014C;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅍,U+E014D,VARIATION SELECTOR-94,Mn,Variation selectors supplement,&#xE014D;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅎,U+E014E,VARIATION SELECTOR-95,Mn,Variation selectors supplement,&#xE014E;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅏,U+E014F,VARIATION SELECTOR-96,Mn,Variation selectors supplement,&#xE014F;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅐,U+E0150,VARIATION SELECTOR-97,Mn,Variation selectors supplement,&#xE0150;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅑,U+E0151,VARIATION SELECTOR-98,Mn,Variation selectors supplement,&#xE0151;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅒,U+E0152,VARIATION SELECTOR-99,Mn,Variation selectors supplement,&#xE0152;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅓,U+E0153,VARIATION SELECTOR-100,Mn,Variation selectors supplement,&#xE0153;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅔,U+E0154,VARIATION SELECTOR-101,Mn,Variation selectors supplement,&#xE0154;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅕,U+E0155,VARIATION SELECTOR-102,Mn,Variation selectors supplement,&#xE0155;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅖,U+E0156,VARIATION SELECTOR-103,Mn,Variation selectors supplement,&#xE0156;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅗,U+E0157,VARIATION SELECTOR-104,Mn,Variation selectors supplement,&#xE0157;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅘,U+E0158,VARIATION SELECTOR-105,Mn,Variation selectors supplement,&#xE0158;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅙,U+E0159,VARIATION SELECTOR-106,Mn,Variation selectors supplement,&#xE0159;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅚,U+E015A,VARIATION SELECTOR-107,Mn,Variation selectors supplement,&#xE015A;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅛,U+E015B,VARIATION SELECTOR-108,Mn,Variation selectors supplement,&#xE015B;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅜,U+E015C,VARIATION SELECTOR-109,Mn,Variation selectors supplement,&#xE015C;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅝,U+E015D,VARIATION SELECTOR-110,Mn,Variation selectors supplement,&#xE015D;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅞,U+E015E,VARIATION SELECTOR-111,Mn,Variation selectors supplement,&#xE015E;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅟,U+E015F,VARIATION SELECTOR-112,Mn,Variation selectors supplement,&#xE015F;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅠,U+E0160,VARIATION SELECTOR-113,Mn,Variation selectors supplement,&#xE0160;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅡,U+E0161,VARIATION SELECTOR-114,Mn,Variation selectors supplement,&#xE0161;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅢,U+E0162,VARIATION SELECTOR-115,Mn,Variation selectors supplement,&#xE0162;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅣,U+E0163,VARIATION SELECTOR-116,Mn,Variation selectors supplement,&#xE0163;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅤,U+E0164,VARIATION SELECTOR-117,Mn,Variation selectors supplement,&#xE0164;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅥,U+E0165,VARIATION SELECTOR-118,Mn,Variation selectors supplement,&#xE0165;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅦,U+E0166,VARIATION SELECTOR-119,Mn,Variation selectors supplement,&#xE0166;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅧,U+E0167,VARIATION SELECTOR-120,Mn,Variation selectors supplement,&#xE0167;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅨,U+E0168,VARIATION SELECTOR-121,Mn,Variation selectors supplement,&#xE0168;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅩,U+E0169,VARIATION SELECTOR-122,Mn,Variation selectors supplement,&#xE0169;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅪,U+E016A,VARIATION SELECTOR-123,Mn,Variation selectors supplement,&#xE016A;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅫,U+E016B,VARIATION SELECTOR-124,Mn,Variation selectors supplement,&#xE016B;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅬,U+E016C,VARIATION SELECTOR-125,Mn,Variation selectors supplement,&#xE016C;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅭,U+E016D,VARIATION SELECTOR-126,Mn,Variation selectors supplement,&#xE016D;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅮,U+E016E,VARIATION SELECTOR-127,Mn,Variation selectors supplement,&#xE016E;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅯,U+E016F,VARIATION SELECTOR-128,Mn,Variation selectors supplement,&#xE016F;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅰,U+E0170,VARIATION SELECTOR-129,Mn,Variation selectors supplement,&#xE0170;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅱,U+E0171,VARIATION SELECTOR-130,Mn,Variation selectors supplement,&#xE0171;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅲,U+E0172,VARIATION SELECTOR-131,Mn,Variation selectors supplement,&#xE0172;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅳,U+E0173,VARIATION SELECTOR-132,Mn,Variation selectors supplement,&#xE0173;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅴,U+E0174,VARIATION SELECTOR-133,Mn,Variation selectors supplement,&#xE0174;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅵,U+E0175,VARIATION SELECTOR-134,Mn,Variation selectors supplement,&#xE0175;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅶,U+E0176,VARIATION SELECTOR-135,Mn,Variation selectors supplement,&#xE0176;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅷,U+E0177,VARIATION SELECTOR-136,Mn,Variation selectors supplement,&#xE0177;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅸,U+E0178,VARIATION SELECTOR-137,Mn,Variation selectors supplement,&#xE0178;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅹,U+E0179,VARIATION SELECTOR-138,Mn,Variation selectors supplement,&#xE0179;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅺,U+E017A,VARIATION SELECTOR-139,Mn,Variation selectors supplement,&#xE017A;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅻,U+E017B,VARIATION SELECTOR-140,Mn,Variation selectors supplement,&#xE017B;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅼,U+E017C,VARIATION SELECTOR-141,Mn,Variation selectors supplement,&#xE017C;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅽,U+E017D,VARIATION SELECTOR-142,Mn,Variation selectors supplement,&#xE017D;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅾,U+E017E,VARIATION SELECTOR-143,Mn,Variation selectors supplement,&#xE017E;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠅿,U+E017F,VARIATION SELECTOR-144,Mn,Variation selectors supplement,&#xE017F;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆀,U+E0180,VARIATION SELECTOR-145,Mn,Variation selectors supplement,&#xE0180;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆁,U+E0181,VARIATION SELECTOR-146,Mn,Variation selectors supplement,&#xE0181;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆂,U+E0182,VARIATION SELECTOR-147,Mn,Variation selectors supplement,&#xE0182;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆃,U+E0183,VARIATION SELECTOR-148,Mn,Variation selectors supplement,&#xE0183;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆄,U+E0184,VARIATION SELECTOR-149,Mn,Variation selectors supplement,&#xE0184;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆅,U+E0185,VARIATION SELECTOR-150,Mn,Variation selectors supplement,&#xE0185;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆆,U+E0186,VARIATION SELECTOR-151,Mn,Variation selectors supplement,&#xE0186;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆇,U+E0187,VARIATION SELECTOR-152,Mn,Variation selectors supplement,&#xE0187;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆈,U+E0188,VARIATION SELECTOR-153,Mn,Variation selectors supplement,&#xE0188;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆉,U+E0189,VARIATION SELECTOR-154,Mn,Variation selectors supplement,&#xE0189;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆊,U+E018A,VARIATION SELECTOR-155,Mn,Variation selectors supplement,&#xE018A;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆋,U+E018B,VARIATION SELECTOR-156,Mn,Variation selectors supplement,&#xE018B;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆌,U+E018C,VARIATION SELECTOR-157,Mn,Variation selectors supplement,&#xE018C;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆍,U+E018D,VARIATION SELECTOR-158,Mn,Variation selectors supplement,&#xE018D;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆎,U+E018E,VARIATION SELECTOR-159,Mn,Variation selectors supplement,&#xE018E;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆏,U+E018F,VARIATION SELECTOR-160,Mn,Variation selectors supplement,&#xE018F;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆐,U+E0190,VARIATION SELECTOR-161,Mn,Variation selectors supplement,&#xE0190;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆑,U+E0191,VARIATION SELECTOR-162,Mn,Variation selectors supplement,&#xE0191;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆒,U+E0192,VARIATION SELECTOR-163,Mn,Variation selectors supplement,&#xE0192;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆓,U+E0193,VARIATION SELECTOR-164,Mn,Variation selectors supplement,&#xE0193;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆔,U+E0194,VARIATION SELECTOR-165,Mn,Variation selectors supplement,&#xE0194;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆕,U+E0195,VARIATION SELECTOR-166,Mn,Variation selectors supplement,&#xE0195;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆖,U+E0196,VARIATION SELECTOR-167,Mn,Variation selectors supplement,&#xE0196;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆗,U+E0197,VARIATION SELECTOR-168,Mn,Variation selectors supplement,&#xE0197;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆘,U+E0198,VARIATION SELECTOR-169,Mn,Variation selectors supplement,&#xE0198;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆙,U+E0199,VARIATION SELECTOR-170,Mn,Variation selectors supplement,&#xE0199;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆚,U+E019A,VARIATION SELECTOR-171,Mn,Variation selectors supplement,&#xE019A;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆛,U+E019B,VARIATION SELECTOR-172,Mn,Variation selectors supplement,&#xE019B;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆜,U+E019C,VARIATION SELECTOR-173,Mn,Variation selectors supplement,&#xE019C;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆝,U+E019D,VARIATION SELECTOR-174,Mn,Variation selectors supplement,&#xE019D;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆞,U+E019E,VARIATION SELECTOR-175,Mn,Variation selectors supplement,&#xE019E;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆟,U+E019F,VARIATION SELECTOR-176,Mn,Variation selectors supplement,&#xE019F;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆠,U+E01A0,VARIATION SELECTOR-177,Mn,Variation selectors supplement,&#xE01A0;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆡,U+E01A1,VARIATION SELECTOR-178,Mn,Variation selectors supplement,&#xE01A1;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆢,U+E01A2,VARIATION SELECTOR-179,Mn,Variation selectors supplement,&#xE01A2;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆣,U+E01A3,VARIATION SELECTOR-180,Mn,Variation selectors supplement,&#xE01A3;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆤,U+E01A4,VARIATION SELECTOR-181,Mn,Variation selectors supplement,&#xE01A4;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆥,U+E01A5,VARIATION SELECTOR-182,Mn,Variation selectors supplement,&#xE01A5;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆦,U+E01A6,VARIATION SELECTOR-183,Mn,Variation selectors supplement,&#xE01A6;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆧,U+E01A7,VARIATION SELECTOR-184,Mn,Variation selectors supplement,&#xE01A7;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆨,U+E01A8,VARIATION SELECTOR-185,Mn,Variation selectors supplement,&#xE01A8;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆩,U+E01A9,VARIATION SELECTOR-186,Mn,Variation selectors supplement,&#xE01A9;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆪,U+E01AA,VARIATION SELECTOR-187,Mn,Variation selectors supplement,&#xE01AA;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆫,U+E01AB,VARIATION SELECTOR-188,Mn,Variation selectors supplement,&#xE01AB;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆬,U+E01AC,VARIATION SELECTOR-189,Mn,Variation selectors supplement,&#xE01AC;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆭,U+E01AD,VARIATION SELECTOR-190,Mn,Variation selectors supplement,&#xE01AD;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆮,U+E01AE,VARIATION SELECTOR-191,Mn,Variation selectors supplement,&#xE01AE;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆯,U+E01AF,VARIATION SELECTOR-192,Mn,Variation selectors supplement,&#xE01AF;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆰,U+E01B0,VARIATION SELECTOR-193,Mn,Variation selectors supplement,&#xE01B0;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆱,U+E01B1,VARIATION SELECTOR-194,Mn,Variation selectors supplement,&#xE01B1;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆲,U+E01B2,VARIATION SELECTOR-195,Mn,Variation selectors supplement,&#xE01B2;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆳,U+E01B3,VARIATION SELECTOR-196,Mn,Variation selectors supplement,&#xE01B3;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆴,U+E01B4,VARIATION SELECTOR-197,Mn,Variation selectors supplement,&#xE01B4;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆵,U+E01B5,VARIATION SELECTOR-198,Mn,Variation selectors supplement,&#xE01B5;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆶,U+E01B6,VARIATION SELECTOR-199,Mn,Variation selectors supplement,&#xE01B6;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆷,U+E01B7,VARIATION SELECTOR-200,Mn,Variation selectors supplement,&#xE01B7;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆸,U+E01B8,VARIATION SELECTOR-201,Mn,Variation selectors supplement,&#xE01B8;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆹,U+E01B9,VARIATION SELECTOR-202,Mn,Variation selectors supplement,&#xE01B9;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆺,U+E01BA,VARIATION SELECTOR-203,Mn,Variation selectors supplement,&#xE01BA;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆻,U+E01BB,VARIATION SELECTOR-204,Mn,Variation selectors supplement,&#xE01BB;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆼,U+E01BC,VARIATION SELECTOR-205,Mn,Variation selectors supplement,&#xE01BC;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆽,U+E01BD,VARIATION SELECTOR-206,Mn,Variation selectors supplement,&#xE01BD;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆾,U+E01BE,VARIATION SELECTOR-207,Mn,Variation selectors supplement,&#xE01BE;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠆿,U+E01BF,VARIATION SELECTOR-208,Mn,Variation selectors supplement,&#xE01BF;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇀,U+E01C0,VARIATION SELECTOR-209,Mn,Variation selectors supplement,&#xE01C0;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇁,U+E01C1,VARIATION SELECTOR-210,Mn,Variation selectors supplement,&#xE01C1;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇂,U+E01C2,VARIATION SELECTOR-211,Mn,Variation selectors supplement,&#xE01C2;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇃,U+E01C3,VARIATION SELECTOR-212,Mn,Variation selectors supplement,&#xE01C3;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇄,U+E01C4,VARIATION SELECTOR-213,Mn,Variation selectors supplement,&#xE01C4;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇅,U+E01C5,VARIATION SELECTOR-214,Mn,Variation selectors supplement,&#xE01C5;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇆,U+E01C6,VARIATION SELECTOR-215,Mn,Variation selectors supplement,&#xE01C6;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇇,U+E01C7,VARIATION SELECTOR-216,Mn,Variation selectors supplement,&#xE01C7;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇈,U+E01C8,VARIATION SELECTOR-217,Mn,Variation selectors supplement,&#xE01C8;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇉,U+E01C9,VARIATION SELECTOR-218,Mn,Variation selectors supplement,&#xE01C9;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇊,U+E01CA,VARIATION SELECTOR-219,Mn,Variation selectors supplement,&#xE01CA;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇋,U+E01CB,VARIATION SELECTOR-220,Mn,Variation selectors supplement,&#xE01CB;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇌,U+E01CC,VARIATION SELECTOR-221,Mn,Variation selectors supplement,&#xE01CC;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇍,U+E01CD,VARIATION SELECTOR-222,Mn,Variation selectors supplement,&#xE01CD;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇎,U+E01CE,VARIATION SELECTOR-223,Mn,Variation selectors supplement,&#xE01CE;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇏,U+E01CF,VARIATION SELECTOR-224,Mn,Variation selectors supplement,&#xE01CF;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇐,U+E01D0,VARIATION SELECTOR-225,Mn,Variation selectors supplement,&#xE01D0;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇑,U+E01D1,VARIATION SELECTOR-226,Mn,Variation selectors supplement,&#xE01D1;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇒,U+E01D2,VARIATION SELECTOR-227,Mn,Variation selectors supplement,&#xE01D2;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇓,U+E01D3,VARIATION SELECTOR-228,Mn,Variation selectors supplement,&#xE01D3;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇔,U+E01D4,VARIATION SELECTOR-229,Mn,Variation selectors supplement,&#xE01D4;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇕,U+E01D5,VARIATION SELECTOR-230,Mn,Variation selectors supplement,&#xE01D5;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇖,U+E01D6,VARIATION SELECTOR-231,Mn,Variation selectors supplement,&#xE01D6;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇗,U+E01D7,VARIATION SELECTOR-232,Mn,Variation selectors supplement,&#xE01D7;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇘,U+E01D8,VARIATION SELECTOR-233,Mn,Variation selectors supplement,&#xE01D8;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇙,U+E01D9,VARIATION SELECTOR-234,Mn,Variation selectors supplement,&#xE01D9;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇚,U+E01DA,VARIATION SELECTOR-235,Mn,Variation selectors supplement,&#xE01DA;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇛,U+E01DB,VARIATION SELECTOR-236,Mn,Variation selectors supplement,&#xE01DB;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇜,U+E01DC,VARIATION SELECTOR-237,Mn,Variation selectors supplement,&#xE01DC;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇝,U+E01DD,VARIATION SELECTOR-238,Mn,Variation selectors supplement,&#xE01DD;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇞,U+E01DE,VARIATION SELECTOR-239,Mn,Variation selectors supplement,&#xE01DE;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇟,U+E01DF,VARIATION SELECTOR-240,Mn,Variation selectors supplement,&#xE01DF;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇠,U+E01E0,VARIATION SELECTOR-241,Mn,Variation selectors supplement,&#xE01E0;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇡,U+E01E1,VARIATION SELECTOR-242,Mn,Variation selectors supplement,&#xE01E1;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇢,U+E01E2,VARIATION SELECTOR-243,Mn,Variation selectors supplement,&#xE01E2;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇣,U+E01E3,VARIATION SELECTOR-244,Mn,Variation selectors supplement,&#xE01E3;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇤,U+E01E4,VARIATION SELECTOR-245,Mn,Variation selectors supplement,&#xE01E4;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇥,U+E01E5,VARIATION SELECTOR-246,Mn,Variation selectors supplement,&#xE01E5;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇦,U+E01E6,VARIATION SELECTOR-247,Mn,Variation selectors supplement,&#xE01E6;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇧,U+E01E7,VARIATION SELECTOR-248,Mn,Variation selectors supplement,&#xE01E7;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇨,U+E01E8,VARIATION SELECTOR-249,Mn,Variation selectors supplement,&#xE01E8;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇩,U+E01E9,VARIATION SELECTOR-250,Mn,Variation selectors supplement,&#xE01E9;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇪,U+E01EA,VARIATION SELECTOR-251,Mn,Variation selectors supplement,&#xE01EA;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇫,U+E01EB,VARIATION SELECTOR-252,Mn,Variation selectors supplement,&#xE01EB;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇬,U+E01EC,VARIATION SELECTOR-253,Mn,Variation selectors supplement,&#xE01EC;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇭,U+E01ED,VARIATION SELECTOR-254,Mn,Variation selectors supplement,&#xE01ED;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇮,U+E01EE,VARIATION SELECTOR-255,Mn,Variation selectors supplement,&#xE01EE;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+󠇯,U+E01EF,VARIATION SELECTOR-256,Mn,Variation selectors supplement,&#xE01EF;,,"Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."

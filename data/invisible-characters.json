@@ -1,0 +1,4122 @@
+[
+  {
+    "character": " ",
+    "codepoint": "U+0020",
+    "unicode_name": "SPACE",
+    "category": "Zs",
+    "group": "Spaces",
+    "html_entity": "&#x20;",
+    "named_entity": null,
+    "notes": "The ordinary space. Every other entry in this dataset is measured against it; several of the exotic spaces below fold back to it under NFKC normalization."
+  },
+  {
+    "character": " ",
+    "codepoint": "U+00A0",
+    "unicode_name": "NO-BREAK SPACE",
+    "category": "Zs",
+    "group": "Spaces",
+    "html_entity": "&#xA0;",
+    "named_entity": "&nbsp;",
+    "notes": "A space that will not break a line. The one people paste by accident most often."
+  },
+  {
+    "character": "­",
+    "codepoint": "U+00AD",
+    "unicode_name": "SOFT HYPHEN",
+    "category": "Cf",
+    "group": "Format characters",
+    "html_entity": "&#xAD;",
+    "named_entity": "&shy;",
+    "notes": "Marks where a word may break. Only becomes visible if the line actually breaks there."
+  },
+  {
+    "character": "͏",
+    "codepoint": "U+034F",
+    "unicode_name": "COMBINING GRAPHEME JOINER",
+    "category": "Mn",
+    "group": "Zero-width and joiners",
+    "html_entity": "&#x34F;",
+    "named_entity": null,
+    "notes": "Ties two characters together so they behave as one grapheme."
+  },
+  {
+    "character": "؜",
+    "codepoint": "U+061C",
+    "unicode_name": "ARABIC LETTER MARK",
+    "category": "Cf",
+    "group": "Bidirectional controls",
+    "html_entity": "&#x61C;",
+    "named_entity": null,
+    "notes": "Bidirectional mark used with Arabic script."
+  },
+  {
+    "character": "ᅟ",
+    "codepoint": "U+115F",
+    "unicode_name": "HANGUL CHOSEONG FILLER",
+    "category": "Lo",
+    "group": "Fillers and blanks",
+    "html_entity": "&#x115F;",
+    "named_entity": null,
+    "notes": "Hangul filler with the advance width of a full syllable block and no ink (0 px painted, 16 px advance in the site's measurements). Used for blank-looking usernames and nicknames."
+  },
+  {
+    "character": "ᅠ",
+    "codepoint": "U+1160",
+    "unicode_name": "HANGUL JUNGSEONG FILLER",
+    "category": "Lo",
+    "group": "Fillers and blanks",
+    "html_entity": "&#x1160;",
+    "named_entity": null,
+    "notes": "Hangul filler with the advance width of a full syllable block and no ink (0 px painted, 16 px advance in the site's measurements). Used for blank-looking usernames and nicknames."
+  },
+  {
+    "character": "᠋",
+    "codepoint": "U+180B",
+    "unicode_name": "MONGOLIAN FREE VARIATION SELECTOR ONE",
+    "category": "Mn",
+    "group": "Mongolian free variation selectors",
+    "html_entity": "&#x180B;",
+    "named_entity": null,
+    "notes": "Select a glyph shape in Mongolian."
+  },
+  {
+    "character": "᠌",
+    "codepoint": "U+180C",
+    "unicode_name": "MONGOLIAN FREE VARIATION SELECTOR TWO",
+    "category": "Mn",
+    "group": "Mongolian free variation selectors",
+    "html_entity": "&#x180C;",
+    "named_entity": null,
+    "notes": "Select a glyph shape in Mongolian."
+  },
+  {
+    "character": "᠍",
+    "codepoint": "U+180D",
+    "unicode_name": "MONGOLIAN FREE VARIATION SELECTOR THREE",
+    "category": "Mn",
+    "group": "Mongolian free variation selectors",
+    "html_entity": "&#x180D;",
+    "named_entity": null,
+    "notes": "Select a glyph shape in Mongolian."
+  },
+  {
+    "character": "᠎",
+    "codepoint": "U+180E",
+    "unicode_name": "MONGOLIAN VOWEL SEPARATOR",
+    "category": "Cf",
+    "group": "Format characters",
+    "html_entity": "&#x180E;",
+    "named_entity": null,
+    "notes": "A Mongolian separator that renders as nothing in most fonts. Classed as a space (Zs) before Unicode 6.3 moved it to format (Cf); many cleanup patterns still miss it."
+  },
+  {
+    "character": " ",
+    "codepoint": "U+2000",
+    "unicode_name": "EN QUAD",
+    "category": "Zs",
+    "group": "Spaces",
+    "html_entity": "&#x2000;",
+    "named_entity": null,
+    "notes": "One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+  },
+  {
+    "character": " ",
+    "codepoint": "U+2001",
+    "unicode_name": "EM QUAD",
+    "category": "Zs",
+    "group": "Spaces",
+    "html_entity": "&#x2001;",
+    "named_entity": null,
+    "notes": "One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+  },
+  {
+    "character": " ",
+    "codepoint": "U+2002",
+    "unicode_name": "EN SPACE",
+    "category": "Zs",
+    "group": "Spaces",
+    "html_entity": "&#x2002;",
+    "named_entity": "&ensp;",
+    "notes": "One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+  },
+  {
+    "character": " ",
+    "codepoint": "U+2003",
+    "unicode_name": "EM SPACE",
+    "category": "Zs",
+    "group": "Spaces",
+    "html_entity": "&#x2003;",
+    "named_entity": "&emsp;",
+    "notes": "One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+  },
+  {
+    "character": " ",
+    "codepoint": "U+2004",
+    "unicode_name": "THREE-PER-EM SPACE",
+    "category": "Zs",
+    "group": "Spaces",
+    "html_entity": "&#x2004;",
+    "named_entity": "&emsp13;",
+    "notes": "One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+  },
+  {
+    "character": " ",
+    "codepoint": "U+2005",
+    "unicode_name": "FOUR-PER-EM SPACE",
+    "category": "Zs",
+    "group": "Spaces",
+    "html_entity": "&#x2005;",
+    "named_entity": "&emsp14;",
+    "notes": "One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+  },
+  {
+    "character": " ",
+    "codepoint": "U+2006",
+    "unicode_name": "SIX-PER-EM SPACE",
+    "category": "Zs",
+    "group": "Spaces",
+    "html_entity": "&#x2006;",
+    "named_entity": null,
+    "notes": "One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+  },
+  {
+    "character": " ",
+    "codepoint": "U+2007",
+    "unicode_name": "FIGURE SPACE",
+    "category": "Zs",
+    "group": "Spaces",
+    "html_entity": "&#x2007;",
+    "named_entity": "&numsp;",
+    "notes": "One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+  },
+  {
+    "character": " ",
+    "codepoint": "U+2008",
+    "unicode_name": "PUNCTUATION SPACE",
+    "category": "Zs",
+    "group": "Spaces",
+    "html_entity": "&#x2008;",
+    "named_entity": "&puncsp;",
+    "notes": "One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+  },
+  {
+    "character": " ",
+    "codepoint": "U+2009",
+    "unicode_name": "THIN SPACE",
+    "category": "Zs",
+    "group": "Spaces",
+    "html_entity": "&#x2009;",
+    "named_entity": "&thinsp;",
+    "notes": "One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+  },
+  {
+    "character": " ",
+    "codepoint": "U+200A",
+    "unicode_name": "HAIR SPACE",
+    "category": "Zs",
+    "group": "Spaces",
+    "html_entity": "&#x200A;",
+    "named_entity": "&hairsp;",
+    "notes": "One of the eleven fixed-width spaces, U+2000-U+200A, running from EN QUAD down to HAIR SPACE."
+  },
+  {
+    "character": "​",
+    "codepoint": "U+200B",
+    "unicode_name": "ZERO WIDTH SPACE",
+    "category": "Cf",
+    "group": "Zero-width and joiners",
+    "html_entity": "&#x200B;",
+    "named_entity": "&ZeroWidthSpace;",
+    "notes": "Lets a browser break a long word. Invisible, survives copy and paste, and the most common hidden character there is."
+  },
+  {
+    "character": "‌",
+    "codepoint": "U+200C",
+    "unicode_name": "ZERO WIDTH NON-JOINER",
+    "category": "Cf",
+    "group": "Zero-width and joiners",
+    "html_entity": "&#x200C;",
+    "named_entity": "&zwnj;",
+    "notes": "Stops a join. Required for correct Persian, Arabic and Devanagari text."
+  },
+  {
+    "character": "‍",
+    "codepoint": "U+200D",
+    "unicode_name": "ZERO WIDTH JOINER",
+    "category": "Cf",
+    "group": "Zero-width and joiners",
+    "html_entity": "&#x200D;",
+    "named_entity": "&zwj;",
+    "notes": "Joins characters. This is what holds an emoji family together as one picture."
+  },
+  {
+    "character": "‎",
+    "codepoint": "U+200E",
+    "unicode_name": "LEFT-TO-RIGHT MARK",
+    "category": "Cf",
+    "group": "Bidirectional controls",
+    "html_entity": "&#x200E;",
+    "named_entity": "&lrm;",
+    "notes": "Forces left-to-right direction for the characters after it."
+  },
+  {
+    "character": "‏",
+    "codepoint": "U+200F",
+    "unicode_name": "RIGHT-TO-LEFT MARK",
+    "category": "Cf",
+    "group": "Bidirectional controls",
+    "html_entity": "&#x200F;",
+    "named_entity": "&rlm;",
+    "notes": "Forces right-to-left direction for the characters after it."
+  },
+  {
+    "character": " ",
+    "codepoint": "U+2028",
+    "unicode_name": "LINE SEPARATOR",
+    "category": "Zl",
+    "group": "Separators",
+    "html_entity": "&#x2028;",
+    "named_entity": null,
+    "notes": "A line break that is not a newline character. Modern JSON parsers accept it, but older parsers and strict string handling still trip on it."
+  },
+  {
+    "character": " ",
+    "codepoint": "U+2029",
+    "unicode_name": "PARAGRAPH SEPARATOR",
+    "category": "Zp",
+    "group": "Separators",
+    "html_entity": "&#x2029;",
+    "named_entity": null,
+    "notes": "A paragraph break that is not a newline character. Same parsing caveat as U+2028."
+  },
+  {
+    "character": "‪",
+    "codepoint": "U+202A",
+    "unicode_name": "LEFT-TO-RIGHT EMBEDDING",
+    "category": "Cf",
+    "group": "Bidirectional controls",
+    "html_entity": "&#x202A;",
+    "named_entity": null,
+    "notes": "One of the five bidi embedding/override characters that set text direction. Safe to delete only in matched pairs."
+  },
+  {
+    "character": "‫",
+    "codepoint": "U+202B",
+    "unicode_name": "RIGHT-TO-LEFT EMBEDDING",
+    "category": "Cf",
+    "group": "Bidirectional controls",
+    "html_entity": "&#x202B;",
+    "named_entity": null,
+    "notes": "One of the five bidi embedding/override characters that set text direction. Safe to delete only in matched pairs."
+  },
+  {
+    "character": "‬",
+    "codepoint": "U+202C",
+    "unicode_name": "POP DIRECTIONAL FORMATTING",
+    "category": "Cf",
+    "group": "Bidirectional controls",
+    "html_entity": "&#x202C;",
+    "named_entity": null,
+    "notes": "One of the five bidi embedding/override characters that set text direction. Safe to delete only in matched pairs."
+  },
+  {
+    "character": "‭",
+    "codepoint": "U+202D",
+    "unicode_name": "LEFT-TO-RIGHT OVERRIDE",
+    "category": "Cf",
+    "group": "Bidirectional controls",
+    "html_entity": "&#x202D;",
+    "named_entity": null,
+    "notes": "One of the five bidi embedding/override characters that set text direction. Safe to delete only in matched pairs."
+  },
+  {
+    "character": "‮",
+    "codepoint": "U+202E",
+    "unicode_name": "RIGHT-TO-LEFT OVERRIDE",
+    "category": "Cf",
+    "group": "Bidirectional controls",
+    "html_entity": "&#x202E;",
+    "named_entity": null,
+    "notes": "One of the five bidi embedding/override characters that set text direction. Safe to delete only in matched pairs."
+  },
+  {
+    "character": " ",
+    "codepoint": "U+202F",
+    "unicode_name": "NARROW NO-BREAK SPACE",
+    "category": "Zs",
+    "group": "Spaces",
+    "html_entity": "&#x202F;",
+    "named_entity": null,
+    "notes": "A thin unbreakable space, used before units and currency in French typography."
+  },
+  {
+    "character": " ",
+    "codepoint": "U+205F",
+    "unicode_name": "MEDIUM MATHEMATICAL SPACE",
+    "category": "Zs",
+    "group": "Spaces",
+    "html_entity": "&#x205F;",
+    "named_entity": "&MediumSpace;",
+    "notes": "A medium space for use inside formulas."
+  },
+  {
+    "character": "⁠",
+    "codepoint": "U+2060",
+    "unicode_name": "WORD JOINER",
+    "category": "Cf",
+    "group": "Zero-width and joiners",
+    "html_entity": "&#x2060;",
+    "named_entity": "&NoBreak;",
+    "notes": "Stops a line break between two words without drawing anything."
+  },
+  {
+    "character": "⁡",
+    "codepoint": "U+2061",
+    "unicode_name": "FUNCTION APPLICATION",
+    "category": "Cf",
+    "group": "Format characters",
+    "html_entity": "&#x2061;",
+    "named_entity": "&af;",
+    "notes": "An invisible function-application operator, meaningful only inside mathematical notation."
+  },
+  {
+    "character": "⁢",
+    "codepoint": "U+2062",
+    "unicode_name": "INVISIBLE TIMES",
+    "category": "Cf",
+    "group": "Format characters",
+    "html_entity": "&#x2062;",
+    "named_entity": "&it;",
+    "notes": "An invisible multiplication operator, meaningful only inside mathematical notation."
+  },
+  {
+    "character": "⁣",
+    "codepoint": "U+2063",
+    "unicode_name": "INVISIBLE SEPARATOR",
+    "category": "Cf",
+    "group": "Format characters",
+    "html_entity": "&#x2063;",
+    "named_entity": "&ic;",
+    "notes": "An invisible separator (as in a long number grouped without commas), meaningful only inside mathematical notation."
+  },
+  {
+    "character": "⁤",
+    "codepoint": "U+2064",
+    "unicode_name": "INVISIBLE PLUS",
+    "category": "Cf",
+    "group": "Format characters",
+    "html_entity": "&#x2064;",
+    "named_entity": null,
+    "notes": "An invisible addition operator, meaningful only inside mathematical notation."
+  },
+  {
+    "character": "⁦",
+    "codepoint": "U+2066",
+    "unicode_name": "LEFT-TO-RIGHT ISOLATE",
+    "category": "Cf",
+    "group": "Bidirectional controls",
+    "html_entity": "&#x2066;",
+    "named_entity": null,
+    "notes": "One of the four bidi isolate characters that isolate a run of text from its surroundings."
+  },
+  {
+    "character": "⁧",
+    "codepoint": "U+2067",
+    "unicode_name": "RIGHT-TO-LEFT ISOLATE",
+    "category": "Cf",
+    "group": "Bidirectional controls",
+    "html_entity": "&#x2067;",
+    "named_entity": null,
+    "notes": "One of the four bidi isolate characters that isolate a run of text from its surroundings."
+  },
+  {
+    "character": "⁨",
+    "codepoint": "U+2068",
+    "unicode_name": "FIRST STRONG ISOLATE",
+    "category": "Cf",
+    "group": "Bidirectional controls",
+    "html_entity": "&#x2068;",
+    "named_entity": null,
+    "notes": "One of the four bidi isolate characters that isolate a run of text from its surroundings."
+  },
+  {
+    "character": "⁩",
+    "codepoint": "U+2069",
+    "unicode_name": "POP DIRECTIONAL ISOLATE",
+    "category": "Cf",
+    "group": "Bidirectional controls",
+    "html_entity": "&#x2069;",
+    "named_entity": null,
+    "notes": "One of the four bidi isolate characters that isolate a run of text from its surroundings."
+  },
+  {
+    "character": "⁪",
+    "codepoint": "U+206A",
+    "unicode_name": "INHIBIT SYMMETRIC SWAPPING",
+    "category": "Cf",
+    "group": "Deprecated format controls",
+    "html_entity": "&#x206A;",
+    "named_entity": null,
+    "notes": "Deprecated format control, retained for legacy text. Renders as nothing."
+  },
+  {
+    "character": "⁫",
+    "codepoint": "U+206B",
+    "unicode_name": "ACTIVATE SYMMETRIC SWAPPING",
+    "category": "Cf",
+    "group": "Deprecated format controls",
+    "html_entity": "&#x206B;",
+    "named_entity": null,
+    "notes": "Deprecated format control, retained for legacy text. Renders as nothing."
+  },
+  {
+    "character": "⁬",
+    "codepoint": "U+206C",
+    "unicode_name": "INHIBIT ARABIC FORM SHAPING",
+    "category": "Cf",
+    "group": "Deprecated format controls",
+    "html_entity": "&#x206C;",
+    "named_entity": null,
+    "notes": "Deprecated format control, retained for legacy text. Renders as nothing."
+  },
+  {
+    "character": "⁭",
+    "codepoint": "U+206D",
+    "unicode_name": "ACTIVATE ARABIC FORM SHAPING",
+    "category": "Cf",
+    "group": "Deprecated format controls",
+    "html_entity": "&#x206D;",
+    "named_entity": null,
+    "notes": "Deprecated format control, retained for legacy text. Renders as nothing."
+  },
+  {
+    "character": "⁮",
+    "codepoint": "U+206E",
+    "unicode_name": "NATIONAL DIGIT SHAPES",
+    "category": "Cf",
+    "group": "Deprecated format controls",
+    "html_entity": "&#x206E;",
+    "named_entity": null,
+    "notes": "Deprecated format control, retained for legacy text. Renders as nothing."
+  },
+  {
+    "character": "⁯",
+    "codepoint": "U+206F",
+    "unicode_name": "NOMINAL DIGIT SHAPES",
+    "category": "Cf",
+    "group": "Deprecated format controls",
+    "html_entity": "&#x206F;",
+    "named_entity": null,
+    "notes": "Deprecated format control, retained for legacy text. Renders as nothing."
+  },
+  {
+    "character": "⠀",
+    "codepoint": "U+2800",
+    "unicode_name": "BRAILLE PATTERN BLANK",
+    "category": "So",
+    "group": "Fillers and blanks",
+    "html_entity": "&#x2800;",
+    "named_entity": null,
+    "notes": "A Braille cell with no dots raised. Paints nothing but takes real width (about 10.4 px in the site's measurements), so it survives filters that strip zero-width characters."
+  },
+  {
+    "character": "　",
+    "codepoint": "U+3000",
+    "unicode_name": "IDEOGRAPHIC SPACE",
+    "category": "Zs",
+    "group": "Spaces",
+    "html_entity": "&#x3000;",
+    "named_entity": null,
+    "notes": "A full-width space that matches the width of a CJK character."
+  },
+  {
+    "character": "ㅤ",
+    "codepoint": "U+3164",
+    "unicode_name": "HANGUL FILLER",
+    "category": "Lo",
+    "group": "Fillers and blanks",
+    "html_entity": "&#x3164;",
+    "named_entity": null,
+    "notes": "Hangul filler: a full-width blank. The site's tests show it folding to U+1160 under NFKC while surviving trim and strip."
+  },
+  {
+    "character": "︀",
+    "codepoint": "U+FE00",
+    "unicode_name": "VARIATION SELECTOR-1",
+    "category": "Mn",
+    "group": "Variation selectors",
+    "html_entity": "&#xFE00;",
+    "named_entity": null,
+    "notes": "Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji."
+  },
+  {
+    "character": "︁",
+    "codepoint": "U+FE01",
+    "unicode_name": "VARIATION SELECTOR-2",
+    "category": "Mn",
+    "group": "Variation selectors",
+    "html_entity": "&#xFE01;",
+    "named_entity": null,
+    "notes": "Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji."
+  },
+  {
+    "character": "︂",
+    "codepoint": "U+FE02",
+    "unicode_name": "VARIATION SELECTOR-3",
+    "category": "Mn",
+    "group": "Variation selectors",
+    "html_entity": "&#xFE02;",
+    "named_entity": null,
+    "notes": "Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji."
+  },
+  {
+    "character": "︃",
+    "codepoint": "U+FE03",
+    "unicode_name": "VARIATION SELECTOR-4",
+    "category": "Mn",
+    "group": "Variation selectors",
+    "html_entity": "&#xFE03;",
+    "named_entity": null,
+    "notes": "Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji."
+  },
+  {
+    "character": "︄",
+    "codepoint": "U+FE04",
+    "unicode_name": "VARIATION SELECTOR-5",
+    "category": "Mn",
+    "group": "Variation selectors",
+    "html_entity": "&#xFE04;",
+    "named_entity": null,
+    "notes": "Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji."
+  },
+  {
+    "character": "︅",
+    "codepoint": "U+FE05",
+    "unicode_name": "VARIATION SELECTOR-6",
+    "category": "Mn",
+    "group": "Variation selectors",
+    "html_entity": "&#xFE05;",
+    "named_entity": null,
+    "notes": "Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji."
+  },
+  {
+    "character": "︆",
+    "codepoint": "U+FE06",
+    "unicode_name": "VARIATION SELECTOR-7",
+    "category": "Mn",
+    "group": "Variation selectors",
+    "html_entity": "&#xFE06;",
+    "named_entity": null,
+    "notes": "Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji."
+  },
+  {
+    "character": "︇",
+    "codepoint": "U+FE07",
+    "unicode_name": "VARIATION SELECTOR-8",
+    "category": "Mn",
+    "group": "Variation selectors",
+    "html_entity": "&#xFE07;",
+    "named_entity": null,
+    "notes": "Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji."
+  },
+  {
+    "character": "︈",
+    "codepoint": "U+FE08",
+    "unicode_name": "VARIATION SELECTOR-9",
+    "category": "Mn",
+    "group": "Variation selectors",
+    "html_entity": "&#xFE08;",
+    "named_entity": null,
+    "notes": "Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji."
+  },
+  {
+    "character": "︉",
+    "codepoint": "U+FE09",
+    "unicode_name": "VARIATION SELECTOR-10",
+    "category": "Mn",
+    "group": "Variation selectors",
+    "html_entity": "&#xFE09;",
+    "named_entity": null,
+    "notes": "Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji."
+  },
+  {
+    "character": "︊",
+    "codepoint": "U+FE0A",
+    "unicode_name": "VARIATION SELECTOR-11",
+    "category": "Mn",
+    "group": "Variation selectors",
+    "html_entity": "&#xFE0A;",
+    "named_entity": null,
+    "notes": "Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji."
+  },
+  {
+    "character": "︋",
+    "codepoint": "U+FE0B",
+    "unicode_name": "VARIATION SELECTOR-12",
+    "category": "Mn",
+    "group": "Variation selectors",
+    "html_entity": "&#xFE0B;",
+    "named_entity": null,
+    "notes": "Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji."
+  },
+  {
+    "character": "︌",
+    "codepoint": "U+FE0C",
+    "unicode_name": "VARIATION SELECTOR-13",
+    "category": "Mn",
+    "group": "Variation selectors",
+    "html_entity": "&#xFE0C;",
+    "named_entity": null,
+    "notes": "Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji."
+  },
+  {
+    "character": "︍",
+    "codepoint": "U+FE0D",
+    "unicode_name": "VARIATION SELECTOR-14",
+    "category": "Mn",
+    "group": "Variation selectors",
+    "html_entity": "&#xFE0D;",
+    "named_entity": null,
+    "notes": "Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji."
+  },
+  {
+    "character": "︎",
+    "codepoint": "U+FE0E",
+    "unicode_name": "VARIATION SELECTOR-15",
+    "category": "Mn",
+    "group": "Variation selectors",
+    "html_entity": "&#xFE0E;",
+    "named_entity": null,
+    "notes": "Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji."
+  },
+  {
+    "character": "️",
+    "codepoint": "U+FE0F",
+    "unicode_name": "VARIATION SELECTOR-16",
+    "category": "Mn",
+    "group": "Variation selectors",
+    "html_entity": "&#xFE0F;",
+    "named_entity": null,
+    "notes": "Variation selector: follows a character and picks an alternate glyph form. Selector 16 (U+FE0F) is what keeps an emoji looking like an emoji."
+  },
+  {
+    "character": "﻿",
+    "codepoint": "U+FEFF",
+    "unicode_name": "ZERO WIDTH NO-BREAK SPACE",
+    "category": "Cf",
+    "group": "Zero-width and joiners",
+    "html_entity": "&#xFEFF;",
+    "named_entity": null,
+    "notes": "A byte order mark at the start of a file. Invisible and unwanted anywhere else."
+  },
+  {
+    "character": "ﾠ",
+    "codepoint": "U+FFA0",
+    "unicode_name": "HALFWIDTH HANGUL FILLER",
+    "category": "Lo",
+    "group": "Fillers and blanks",
+    "html_entity": "&#xFFA0;",
+    "named_entity": null,
+    "notes": "Halfwidth Hangul filler (0 px painted, 8 px advance in the site's measurements). Used for blank-looking nicknames."
+  },
+  {
+    "character": "￹",
+    "codepoint": "U+FFF9",
+    "unicode_name": "INTERLINEAR ANNOTATION ANCHOR",
+    "category": "Cf",
+    "group": "Format characters",
+    "html_entity": "&#xFFF9;",
+    "named_entity": null,
+    "notes": "Starts an interlinear (ruby-style) annotation run. Rarely intended in plain text."
+  },
+  {
+    "character": "￺",
+    "codepoint": "U+FFFA",
+    "unicode_name": "INTERLINEAR ANNOTATION SEPARATOR",
+    "category": "Cf",
+    "group": "Format characters",
+    "html_entity": "&#xFFFA;",
+    "named_entity": null,
+    "notes": "Separates an interlinear annotation from its base text. Rarely intended in plain text."
+  },
+  {
+    "character": "￻",
+    "codepoint": "U+FFFB",
+    "unicode_name": "INTERLINEAR ANNOTATION TERMINATOR",
+    "category": "Cf",
+    "group": "Format characters",
+    "html_entity": "&#xFFFB;",
+    "named_entity": null,
+    "notes": "Ends an interlinear annotation run. Rarely intended in plain text."
+  },
+  {
+    "character": "󠀁",
+    "codepoint": "U+E0001",
+    "unicode_name": "LANGUAGE TAG",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0001;",
+    "named_entity": null,
+    "notes": "Part of the tag character block, used to label language inside a string."
+  },
+  {
+    "character": "󠀠",
+    "codepoint": "U+E0020",
+    "unicode_name": "TAG SPACE",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0020;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII SPACE. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀡",
+    "codepoint": "U+E0021",
+    "unicode_name": "TAG EXCLAMATION MARK",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0021;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII EXCLAMATION MARK. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀢",
+    "codepoint": "U+E0022",
+    "unicode_name": "TAG QUOTATION MARK",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0022;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII QUOTATION MARK. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀣",
+    "codepoint": "U+E0023",
+    "unicode_name": "TAG NUMBER SIGN",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0023;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII NUMBER SIGN. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀤",
+    "codepoint": "U+E0024",
+    "unicode_name": "TAG DOLLAR SIGN",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0024;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII DOLLAR SIGN. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀥",
+    "codepoint": "U+E0025",
+    "unicode_name": "TAG PERCENT SIGN",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0025;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII PERCENT SIGN. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀦",
+    "codepoint": "U+E0026",
+    "unicode_name": "TAG AMPERSAND",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0026;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII AMPERSAND. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀧",
+    "codepoint": "U+E0027",
+    "unicode_name": "TAG APOSTROPHE",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0027;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII APOSTROPHE. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀨",
+    "codepoint": "U+E0028",
+    "unicode_name": "TAG LEFT PARENTHESIS",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0028;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LEFT PARENTHESIS. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀩",
+    "codepoint": "U+E0029",
+    "unicode_name": "TAG RIGHT PARENTHESIS",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0029;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII RIGHT PARENTHESIS. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀪",
+    "codepoint": "U+E002A",
+    "unicode_name": "TAG ASTERISK",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE002A;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII ASTERISK. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀫",
+    "codepoint": "U+E002B",
+    "unicode_name": "TAG PLUS SIGN",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE002B;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII PLUS SIGN. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀬",
+    "codepoint": "U+E002C",
+    "unicode_name": "TAG COMMA",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE002C;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII COMMA. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀭",
+    "codepoint": "U+E002D",
+    "unicode_name": "TAG HYPHEN-MINUS",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE002D;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII HYPHEN-MINUS. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀮",
+    "codepoint": "U+E002E",
+    "unicode_name": "TAG FULL STOP",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE002E;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII FULL STOP. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀯",
+    "codepoint": "U+E002F",
+    "unicode_name": "TAG SOLIDUS",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE002F;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII SOLIDUS. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀰",
+    "codepoint": "U+E0030",
+    "unicode_name": "TAG DIGIT ZERO",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0030;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII DIGIT ZERO. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀱",
+    "codepoint": "U+E0031",
+    "unicode_name": "TAG DIGIT ONE",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0031;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII DIGIT ONE. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀲",
+    "codepoint": "U+E0032",
+    "unicode_name": "TAG DIGIT TWO",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0032;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII DIGIT TWO. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀳",
+    "codepoint": "U+E0033",
+    "unicode_name": "TAG DIGIT THREE",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0033;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII DIGIT THREE. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀴",
+    "codepoint": "U+E0034",
+    "unicode_name": "TAG DIGIT FOUR",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0034;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII DIGIT FOUR. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀵",
+    "codepoint": "U+E0035",
+    "unicode_name": "TAG DIGIT FIVE",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0035;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII DIGIT FIVE. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀶",
+    "codepoint": "U+E0036",
+    "unicode_name": "TAG DIGIT SIX",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0036;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII DIGIT SIX. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀷",
+    "codepoint": "U+E0037",
+    "unicode_name": "TAG DIGIT SEVEN",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0037;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII DIGIT SEVEN. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀸",
+    "codepoint": "U+E0038",
+    "unicode_name": "TAG DIGIT EIGHT",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0038;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII DIGIT EIGHT. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀹",
+    "codepoint": "U+E0039",
+    "unicode_name": "TAG DIGIT NINE",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0039;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII DIGIT NINE. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀺",
+    "codepoint": "U+E003A",
+    "unicode_name": "TAG COLON",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE003A;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII COLON. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀻",
+    "codepoint": "U+E003B",
+    "unicode_name": "TAG SEMICOLON",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE003B;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII SEMICOLON. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀼",
+    "codepoint": "U+E003C",
+    "unicode_name": "TAG LESS-THAN SIGN",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE003C;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LESS-THAN SIGN. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀽",
+    "codepoint": "U+E003D",
+    "unicode_name": "TAG EQUALS SIGN",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE003D;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII EQUALS SIGN. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀾",
+    "codepoint": "U+E003E",
+    "unicode_name": "TAG GREATER-THAN SIGN",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE003E;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII GREATER-THAN SIGN. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠀿",
+    "codepoint": "U+E003F",
+    "unicode_name": "TAG QUESTION MARK",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE003F;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII QUESTION MARK. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁀",
+    "codepoint": "U+E0040",
+    "unicode_name": "TAG COMMERCIAL AT",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0040;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII COMMERCIAL AT. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁁",
+    "codepoint": "U+E0041",
+    "unicode_name": "TAG LATIN CAPITAL LETTER A",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0041;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER A. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁂",
+    "codepoint": "U+E0042",
+    "unicode_name": "TAG LATIN CAPITAL LETTER B",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0042;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER B. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁃",
+    "codepoint": "U+E0043",
+    "unicode_name": "TAG LATIN CAPITAL LETTER C",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0043;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER C. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁄",
+    "codepoint": "U+E0044",
+    "unicode_name": "TAG LATIN CAPITAL LETTER D",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0044;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER D. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁅",
+    "codepoint": "U+E0045",
+    "unicode_name": "TAG LATIN CAPITAL LETTER E",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0045;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER E. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁆",
+    "codepoint": "U+E0046",
+    "unicode_name": "TAG LATIN CAPITAL LETTER F",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0046;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER F. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁇",
+    "codepoint": "U+E0047",
+    "unicode_name": "TAG LATIN CAPITAL LETTER G",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0047;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER G. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁈",
+    "codepoint": "U+E0048",
+    "unicode_name": "TAG LATIN CAPITAL LETTER H",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0048;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER H. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁉",
+    "codepoint": "U+E0049",
+    "unicode_name": "TAG LATIN CAPITAL LETTER I",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0049;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER I. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁊",
+    "codepoint": "U+E004A",
+    "unicode_name": "TAG LATIN CAPITAL LETTER J",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE004A;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER J. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁋",
+    "codepoint": "U+E004B",
+    "unicode_name": "TAG LATIN CAPITAL LETTER K",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE004B;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER K. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁌",
+    "codepoint": "U+E004C",
+    "unicode_name": "TAG LATIN CAPITAL LETTER L",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE004C;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER L. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁍",
+    "codepoint": "U+E004D",
+    "unicode_name": "TAG LATIN CAPITAL LETTER M",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE004D;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER M. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁎",
+    "codepoint": "U+E004E",
+    "unicode_name": "TAG LATIN CAPITAL LETTER N",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE004E;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER N. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁏",
+    "codepoint": "U+E004F",
+    "unicode_name": "TAG LATIN CAPITAL LETTER O",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE004F;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER O. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁐",
+    "codepoint": "U+E0050",
+    "unicode_name": "TAG LATIN CAPITAL LETTER P",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0050;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER P. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁑",
+    "codepoint": "U+E0051",
+    "unicode_name": "TAG LATIN CAPITAL LETTER Q",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0051;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER Q. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁒",
+    "codepoint": "U+E0052",
+    "unicode_name": "TAG LATIN CAPITAL LETTER R",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0052;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER R. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁓",
+    "codepoint": "U+E0053",
+    "unicode_name": "TAG LATIN CAPITAL LETTER S",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0053;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER S. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁔",
+    "codepoint": "U+E0054",
+    "unicode_name": "TAG LATIN CAPITAL LETTER T",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0054;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER T. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁕",
+    "codepoint": "U+E0055",
+    "unicode_name": "TAG LATIN CAPITAL LETTER U",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0055;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER U. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁖",
+    "codepoint": "U+E0056",
+    "unicode_name": "TAG LATIN CAPITAL LETTER V",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0056;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER V. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁗",
+    "codepoint": "U+E0057",
+    "unicode_name": "TAG LATIN CAPITAL LETTER W",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0057;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER W. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁘",
+    "codepoint": "U+E0058",
+    "unicode_name": "TAG LATIN CAPITAL LETTER X",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0058;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER X. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁙",
+    "codepoint": "U+E0059",
+    "unicode_name": "TAG LATIN CAPITAL LETTER Y",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0059;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER Y. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁚",
+    "codepoint": "U+E005A",
+    "unicode_name": "TAG LATIN CAPITAL LETTER Z",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE005A;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN CAPITAL LETTER Z. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁛",
+    "codepoint": "U+E005B",
+    "unicode_name": "TAG LEFT SQUARE BRACKET",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE005B;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LEFT SQUARE BRACKET. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁜",
+    "codepoint": "U+E005C",
+    "unicode_name": "TAG REVERSE SOLIDUS",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE005C;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII REVERSE SOLIDUS. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁝",
+    "codepoint": "U+E005D",
+    "unicode_name": "TAG RIGHT SQUARE BRACKET",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE005D;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII RIGHT SQUARE BRACKET. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁞",
+    "codepoint": "U+E005E",
+    "unicode_name": "TAG CIRCUMFLEX ACCENT",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE005E;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII CIRCUMFLEX ACCENT. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁟",
+    "codepoint": "U+E005F",
+    "unicode_name": "TAG LOW LINE",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE005F;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LOW LINE. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁠",
+    "codepoint": "U+E0060",
+    "unicode_name": "TAG GRAVE ACCENT",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0060;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII GRAVE ACCENT. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁡",
+    "codepoint": "U+E0061",
+    "unicode_name": "TAG LATIN SMALL LETTER A",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0061;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER A. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁢",
+    "codepoint": "U+E0062",
+    "unicode_name": "TAG LATIN SMALL LETTER B",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0062;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER B. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁣",
+    "codepoint": "U+E0063",
+    "unicode_name": "TAG LATIN SMALL LETTER C",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0063;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER C. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁤",
+    "codepoint": "U+E0064",
+    "unicode_name": "TAG LATIN SMALL LETTER D",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0064;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER D. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁥",
+    "codepoint": "U+E0065",
+    "unicode_name": "TAG LATIN SMALL LETTER E",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0065;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER E. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁦",
+    "codepoint": "U+E0066",
+    "unicode_name": "TAG LATIN SMALL LETTER F",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0066;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER F. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁧",
+    "codepoint": "U+E0067",
+    "unicode_name": "TAG LATIN SMALL LETTER G",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0067;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER G. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁨",
+    "codepoint": "U+E0068",
+    "unicode_name": "TAG LATIN SMALL LETTER H",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0068;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER H. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁩",
+    "codepoint": "U+E0069",
+    "unicode_name": "TAG LATIN SMALL LETTER I",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0069;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER I. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁪",
+    "codepoint": "U+E006A",
+    "unicode_name": "TAG LATIN SMALL LETTER J",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE006A;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER J. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁫",
+    "codepoint": "U+E006B",
+    "unicode_name": "TAG LATIN SMALL LETTER K",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE006B;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER K. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁬",
+    "codepoint": "U+E006C",
+    "unicode_name": "TAG LATIN SMALL LETTER L",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE006C;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER L. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁭",
+    "codepoint": "U+E006D",
+    "unicode_name": "TAG LATIN SMALL LETTER M",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE006D;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER M. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁮",
+    "codepoint": "U+E006E",
+    "unicode_name": "TAG LATIN SMALL LETTER N",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE006E;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER N. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁯",
+    "codepoint": "U+E006F",
+    "unicode_name": "TAG LATIN SMALL LETTER O",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE006F;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER O. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁰",
+    "codepoint": "U+E0070",
+    "unicode_name": "TAG LATIN SMALL LETTER P",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0070;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER P. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁱",
+    "codepoint": "U+E0071",
+    "unicode_name": "TAG LATIN SMALL LETTER Q",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0071;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER Q. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁲",
+    "codepoint": "U+E0072",
+    "unicode_name": "TAG LATIN SMALL LETTER R",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0072;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER R. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁳",
+    "codepoint": "U+E0073",
+    "unicode_name": "TAG LATIN SMALL LETTER S",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0073;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER S. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁴",
+    "codepoint": "U+E0074",
+    "unicode_name": "TAG LATIN SMALL LETTER T",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0074;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER T. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁵",
+    "codepoint": "U+E0075",
+    "unicode_name": "TAG LATIN SMALL LETTER U",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0075;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER U. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁶",
+    "codepoint": "U+E0076",
+    "unicode_name": "TAG LATIN SMALL LETTER V",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0076;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER V. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁷",
+    "codepoint": "U+E0077",
+    "unicode_name": "TAG LATIN SMALL LETTER W",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0077;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER W. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁸",
+    "codepoint": "U+E0078",
+    "unicode_name": "TAG LATIN SMALL LETTER X",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0078;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER X. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁹",
+    "codepoint": "U+E0079",
+    "unicode_name": "TAG LATIN SMALL LETTER Y",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE0079;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER Y. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁺",
+    "codepoint": "U+E007A",
+    "unicode_name": "TAG LATIN SMALL LETTER Z",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE007A;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LATIN SMALL LETTER Z. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁻",
+    "codepoint": "U+E007B",
+    "unicode_name": "TAG LEFT CURLY BRACKET",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE007B;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII LEFT CURLY BRACKET. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁼",
+    "codepoint": "U+E007C",
+    "unicode_name": "TAG VERTICAL LINE",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE007C;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII VERTICAL LINE. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁽",
+    "codepoint": "U+E007D",
+    "unicode_name": "TAG RIGHT CURLY BRACKET",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE007D;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII RIGHT CURLY BRACKET. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁾",
+    "codepoint": "U+E007E",
+    "unicode_name": "TAG TILDE",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE007E;",
+    "named_entity": null,
+    "notes": "Tag character mirroring ASCII TILDE. The block U+E0020-U+E007F spells out hidden ASCII text inside a string; used to fingerprint copied output."
+  },
+  {
+    "character": "󠁿",
+    "codepoint": "U+E007F",
+    "unicode_name": "CANCEL TAG",
+    "category": "Cf",
+    "group": "Tag characters",
+    "html_entity": "&#xE007F;",
+    "named_entity": null,
+    "notes": "Cancels (terminates) a sequence of tag characters."
+  },
+  {
+    "character": "󠄀",
+    "codepoint": "U+E0100",
+    "unicode_name": "VARIATION SELECTOR-17",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0100;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄁",
+    "codepoint": "U+E0101",
+    "unicode_name": "VARIATION SELECTOR-18",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0101;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄂",
+    "codepoint": "U+E0102",
+    "unicode_name": "VARIATION SELECTOR-19",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0102;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄃",
+    "codepoint": "U+E0103",
+    "unicode_name": "VARIATION SELECTOR-20",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0103;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄄",
+    "codepoint": "U+E0104",
+    "unicode_name": "VARIATION SELECTOR-21",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0104;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄅",
+    "codepoint": "U+E0105",
+    "unicode_name": "VARIATION SELECTOR-22",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0105;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄆",
+    "codepoint": "U+E0106",
+    "unicode_name": "VARIATION SELECTOR-23",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0106;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄇",
+    "codepoint": "U+E0107",
+    "unicode_name": "VARIATION SELECTOR-24",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0107;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄈",
+    "codepoint": "U+E0108",
+    "unicode_name": "VARIATION SELECTOR-25",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0108;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄉",
+    "codepoint": "U+E0109",
+    "unicode_name": "VARIATION SELECTOR-26",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0109;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄊",
+    "codepoint": "U+E010A",
+    "unicode_name": "VARIATION SELECTOR-27",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE010A;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄋",
+    "codepoint": "U+E010B",
+    "unicode_name": "VARIATION SELECTOR-28",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE010B;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄌",
+    "codepoint": "U+E010C",
+    "unicode_name": "VARIATION SELECTOR-29",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE010C;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄍",
+    "codepoint": "U+E010D",
+    "unicode_name": "VARIATION SELECTOR-30",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE010D;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄎",
+    "codepoint": "U+E010E",
+    "unicode_name": "VARIATION SELECTOR-31",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE010E;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄏",
+    "codepoint": "U+E010F",
+    "unicode_name": "VARIATION SELECTOR-32",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE010F;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄐",
+    "codepoint": "U+E0110",
+    "unicode_name": "VARIATION SELECTOR-33",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0110;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄑",
+    "codepoint": "U+E0111",
+    "unicode_name": "VARIATION SELECTOR-34",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0111;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄒",
+    "codepoint": "U+E0112",
+    "unicode_name": "VARIATION SELECTOR-35",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0112;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄓",
+    "codepoint": "U+E0113",
+    "unicode_name": "VARIATION SELECTOR-36",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0113;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄔",
+    "codepoint": "U+E0114",
+    "unicode_name": "VARIATION SELECTOR-37",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0114;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄕",
+    "codepoint": "U+E0115",
+    "unicode_name": "VARIATION SELECTOR-38",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0115;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄖",
+    "codepoint": "U+E0116",
+    "unicode_name": "VARIATION SELECTOR-39",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0116;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄗",
+    "codepoint": "U+E0117",
+    "unicode_name": "VARIATION SELECTOR-40",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0117;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄘",
+    "codepoint": "U+E0118",
+    "unicode_name": "VARIATION SELECTOR-41",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0118;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄙",
+    "codepoint": "U+E0119",
+    "unicode_name": "VARIATION SELECTOR-42",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0119;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄚",
+    "codepoint": "U+E011A",
+    "unicode_name": "VARIATION SELECTOR-43",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE011A;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄛",
+    "codepoint": "U+E011B",
+    "unicode_name": "VARIATION SELECTOR-44",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE011B;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄜",
+    "codepoint": "U+E011C",
+    "unicode_name": "VARIATION SELECTOR-45",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE011C;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄝",
+    "codepoint": "U+E011D",
+    "unicode_name": "VARIATION SELECTOR-46",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE011D;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄞",
+    "codepoint": "U+E011E",
+    "unicode_name": "VARIATION SELECTOR-47",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE011E;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄟",
+    "codepoint": "U+E011F",
+    "unicode_name": "VARIATION SELECTOR-48",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE011F;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄠",
+    "codepoint": "U+E0120",
+    "unicode_name": "VARIATION SELECTOR-49",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0120;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄡",
+    "codepoint": "U+E0121",
+    "unicode_name": "VARIATION SELECTOR-50",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0121;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄢",
+    "codepoint": "U+E0122",
+    "unicode_name": "VARIATION SELECTOR-51",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0122;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄣",
+    "codepoint": "U+E0123",
+    "unicode_name": "VARIATION SELECTOR-52",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0123;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄤",
+    "codepoint": "U+E0124",
+    "unicode_name": "VARIATION SELECTOR-53",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0124;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄥",
+    "codepoint": "U+E0125",
+    "unicode_name": "VARIATION SELECTOR-54",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0125;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄦",
+    "codepoint": "U+E0126",
+    "unicode_name": "VARIATION SELECTOR-55",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0126;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄧",
+    "codepoint": "U+E0127",
+    "unicode_name": "VARIATION SELECTOR-56",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0127;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄨",
+    "codepoint": "U+E0128",
+    "unicode_name": "VARIATION SELECTOR-57",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0128;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄩",
+    "codepoint": "U+E0129",
+    "unicode_name": "VARIATION SELECTOR-58",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0129;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄪",
+    "codepoint": "U+E012A",
+    "unicode_name": "VARIATION SELECTOR-59",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE012A;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄫",
+    "codepoint": "U+E012B",
+    "unicode_name": "VARIATION SELECTOR-60",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE012B;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄬",
+    "codepoint": "U+E012C",
+    "unicode_name": "VARIATION SELECTOR-61",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE012C;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄭",
+    "codepoint": "U+E012D",
+    "unicode_name": "VARIATION SELECTOR-62",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE012D;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄮",
+    "codepoint": "U+E012E",
+    "unicode_name": "VARIATION SELECTOR-63",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE012E;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄯",
+    "codepoint": "U+E012F",
+    "unicode_name": "VARIATION SELECTOR-64",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE012F;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄰",
+    "codepoint": "U+E0130",
+    "unicode_name": "VARIATION SELECTOR-65",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0130;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄱",
+    "codepoint": "U+E0131",
+    "unicode_name": "VARIATION SELECTOR-66",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0131;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄲",
+    "codepoint": "U+E0132",
+    "unicode_name": "VARIATION SELECTOR-67",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0132;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄳",
+    "codepoint": "U+E0133",
+    "unicode_name": "VARIATION SELECTOR-68",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0133;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄴",
+    "codepoint": "U+E0134",
+    "unicode_name": "VARIATION SELECTOR-69",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0134;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄵",
+    "codepoint": "U+E0135",
+    "unicode_name": "VARIATION SELECTOR-70",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0135;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄶",
+    "codepoint": "U+E0136",
+    "unicode_name": "VARIATION SELECTOR-71",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0136;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄷",
+    "codepoint": "U+E0137",
+    "unicode_name": "VARIATION SELECTOR-72",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0137;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄸",
+    "codepoint": "U+E0138",
+    "unicode_name": "VARIATION SELECTOR-73",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0138;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄹",
+    "codepoint": "U+E0139",
+    "unicode_name": "VARIATION SELECTOR-74",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0139;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄺",
+    "codepoint": "U+E013A",
+    "unicode_name": "VARIATION SELECTOR-75",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE013A;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄻",
+    "codepoint": "U+E013B",
+    "unicode_name": "VARIATION SELECTOR-76",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE013B;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄼",
+    "codepoint": "U+E013C",
+    "unicode_name": "VARIATION SELECTOR-77",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE013C;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄽",
+    "codepoint": "U+E013D",
+    "unicode_name": "VARIATION SELECTOR-78",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE013D;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄾",
+    "codepoint": "U+E013E",
+    "unicode_name": "VARIATION SELECTOR-79",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE013E;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠄿",
+    "codepoint": "U+E013F",
+    "unicode_name": "VARIATION SELECTOR-80",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE013F;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅀",
+    "codepoint": "U+E0140",
+    "unicode_name": "VARIATION SELECTOR-81",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0140;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅁",
+    "codepoint": "U+E0141",
+    "unicode_name": "VARIATION SELECTOR-82",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0141;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅂",
+    "codepoint": "U+E0142",
+    "unicode_name": "VARIATION SELECTOR-83",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0142;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅃",
+    "codepoint": "U+E0143",
+    "unicode_name": "VARIATION SELECTOR-84",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0143;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅄",
+    "codepoint": "U+E0144",
+    "unicode_name": "VARIATION SELECTOR-85",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0144;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅅",
+    "codepoint": "U+E0145",
+    "unicode_name": "VARIATION SELECTOR-86",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0145;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅆",
+    "codepoint": "U+E0146",
+    "unicode_name": "VARIATION SELECTOR-87",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0146;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅇",
+    "codepoint": "U+E0147",
+    "unicode_name": "VARIATION SELECTOR-88",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0147;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅈",
+    "codepoint": "U+E0148",
+    "unicode_name": "VARIATION SELECTOR-89",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0148;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅉",
+    "codepoint": "U+E0149",
+    "unicode_name": "VARIATION SELECTOR-90",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0149;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅊",
+    "codepoint": "U+E014A",
+    "unicode_name": "VARIATION SELECTOR-91",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE014A;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅋",
+    "codepoint": "U+E014B",
+    "unicode_name": "VARIATION SELECTOR-92",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE014B;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅌",
+    "codepoint": "U+E014C",
+    "unicode_name": "VARIATION SELECTOR-93",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE014C;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅍",
+    "codepoint": "U+E014D",
+    "unicode_name": "VARIATION SELECTOR-94",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE014D;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅎",
+    "codepoint": "U+E014E",
+    "unicode_name": "VARIATION SELECTOR-95",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE014E;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅏",
+    "codepoint": "U+E014F",
+    "unicode_name": "VARIATION SELECTOR-96",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE014F;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅐",
+    "codepoint": "U+E0150",
+    "unicode_name": "VARIATION SELECTOR-97",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0150;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅑",
+    "codepoint": "U+E0151",
+    "unicode_name": "VARIATION SELECTOR-98",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0151;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅒",
+    "codepoint": "U+E0152",
+    "unicode_name": "VARIATION SELECTOR-99",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0152;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅓",
+    "codepoint": "U+E0153",
+    "unicode_name": "VARIATION SELECTOR-100",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0153;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅔",
+    "codepoint": "U+E0154",
+    "unicode_name": "VARIATION SELECTOR-101",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0154;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅕",
+    "codepoint": "U+E0155",
+    "unicode_name": "VARIATION SELECTOR-102",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0155;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅖",
+    "codepoint": "U+E0156",
+    "unicode_name": "VARIATION SELECTOR-103",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0156;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅗",
+    "codepoint": "U+E0157",
+    "unicode_name": "VARIATION SELECTOR-104",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0157;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅘",
+    "codepoint": "U+E0158",
+    "unicode_name": "VARIATION SELECTOR-105",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0158;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅙",
+    "codepoint": "U+E0159",
+    "unicode_name": "VARIATION SELECTOR-106",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0159;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅚",
+    "codepoint": "U+E015A",
+    "unicode_name": "VARIATION SELECTOR-107",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE015A;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅛",
+    "codepoint": "U+E015B",
+    "unicode_name": "VARIATION SELECTOR-108",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE015B;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅜",
+    "codepoint": "U+E015C",
+    "unicode_name": "VARIATION SELECTOR-109",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE015C;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅝",
+    "codepoint": "U+E015D",
+    "unicode_name": "VARIATION SELECTOR-110",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE015D;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅞",
+    "codepoint": "U+E015E",
+    "unicode_name": "VARIATION SELECTOR-111",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE015E;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅟",
+    "codepoint": "U+E015F",
+    "unicode_name": "VARIATION SELECTOR-112",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE015F;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅠",
+    "codepoint": "U+E0160",
+    "unicode_name": "VARIATION SELECTOR-113",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0160;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅡",
+    "codepoint": "U+E0161",
+    "unicode_name": "VARIATION SELECTOR-114",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0161;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅢",
+    "codepoint": "U+E0162",
+    "unicode_name": "VARIATION SELECTOR-115",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0162;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅣",
+    "codepoint": "U+E0163",
+    "unicode_name": "VARIATION SELECTOR-116",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0163;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅤",
+    "codepoint": "U+E0164",
+    "unicode_name": "VARIATION SELECTOR-117",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0164;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅥",
+    "codepoint": "U+E0165",
+    "unicode_name": "VARIATION SELECTOR-118",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0165;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅦",
+    "codepoint": "U+E0166",
+    "unicode_name": "VARIATION SELECTOR-119",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0166;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅧",
+    "codepoint": "U+E0167",
+    "unicode_name": "VARIATION SELECTOR-120",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0167;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅨",
+    "codepoint": "U+E0168",
+    "unicode_name": "VARIATION SELECTOR-121",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0168;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅩",
+    "codepoint": "U+E0169",
+    "unicode_name": "VARIATION SELECTOR-122",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0169;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅪",
+    "codepoint": "U+E016A",
+    "unicode_name": "VARIATION SELECTOR-123",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE016A;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅫",
+    "codepoint": "U+E016B",
+    "unicode_name": "VARIATION SELECTOR-124",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE016B;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅬",
+    "codepoint": "U+E016C",
+    "unicode_name": "VARIATION SELECTOR-125",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE016C;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅭",
+    "codepoint": "U+E016D",
+    "unicode_name": "VARIATION SELECTOR-126",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE016D;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅮",
+    "codepoint": "U+E016E",
+    "unicode_name": "VARIATION SELECTOR-127",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE016E;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅯",
+    "codepoint": "U+E016F",
+    "unicode_name": "VARIATION SELECTOR-128",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE016F;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅰",
+    "codepoint": "U+E0170",
+    "unicode_name": "VARIATION SELECTOR-129",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0170;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅱",
+    "codepoint": "U+E0171",
+    "unicode_name": "VARIATION SELECTOR-130",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0171;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅲",
+    "codepoint": "U+E0172",
+    "unicode_name": "VARIATION SELECTOR-131",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0172;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅳",
+    "codepoint": "U+E0173",
+    "unicode_name": "VARIATION SELECTOR-132",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0173;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅴",
+    "codepoint": "U+E0174",
+    "unicode_name": "VARIATION SELECTOR-133",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0174;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅵",
+    "codepoint": "U+E0175",
+    "unicode_name": "VARIATION SELECTOR-134",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0175;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅶",
+    "codepoint": "U+E0176",
+    "unicode_name": "VARIATION SELECTOR-135",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0176;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅷",
+    "codepoint": "U+E0177",
+    "unicode_name": "VARIATION SELECTOR-136",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0177;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅸",
+    "codepoint": "U+E0178",
+    "unicode_name": "VARIATION SELECTOR-137",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0178;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅹",
+    "codepoint": "U+E0179",
+    "unicode_name": "VARIATION SELECTOR-138",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0179;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅺",
+    "codepoint": "U+E017A",
+    "unicode_name": "VARIATION SELECTOR-139",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE017A;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅻",
+    "codepoint": "U+E017B",
+    "unicode_name": "VARIATION SELECTOR-140",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE017B;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅼",
+    "codepoint": "U+E017C",
+    "unicode_name": "VARIATION SELECTOR-141",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE017C;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅽",
+    "codepoint": "U+E017D",
+    "unicode_name": "VARIATION SELECTOR-142",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE017D;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅾",
+    "codepoint": "U+E017E",
+    "unicode_name": "VARIATION SELECTOR-143",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE017E;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠅿",
+    "codepoint": "U+E017F",
+    "unicode_name": "VARIATION SELECTOR-144",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE017F;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆀",
+    "codepoint": "U+E0180",
+    "unicode_name": "VARIATION SELECTOR-145",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0180;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆁",
+    "codepoint": "U+E0181",
+    "unicode_name": "VARIATION SELECTOR-146",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0181;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆂",
+    "codepoint": "U+E0182",
+    "unicode_name": "VARIATION SELECTOR-147",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0182;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆃",
+    "codepoint": "U+E0183",
+    "unicode_name": "VARIATION SELECTOR-148",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0183;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆄",
+    "codepoint": "U+E0184",
+    "unicode_name": "VARIATION SELECTOR-149",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0184;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆅",
+    "codepoint": "U+E0185",
+    "unicode_name": "VARIATION SELECTOR-150",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0185;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆆",
+    "codepoint": "U+E0186",
+    "unicode_name": "VARIATION SELECTOR-151",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0186;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆇",
+    "codepoint": "U+E0187",
+    "unicode_name": "VARIATION SELECTOR-152",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0187;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆈",
+    "codepoint": "U+E0188",
+    "unicode_name": "VARIATION SELECTOR-153",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0188;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆉",
+    "codepoint": "U+E0189",
+    "unicode_name": "VARIATION SELECTOR-154",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0189;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆊",
+    "codepoint": "U+E018A",
+    "unicode_name": "VARIATION SELECTOR-155",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE018A;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆋",
+    "codepoint": "U+E018B",
+    "unicode_name": "VARIATION SELECTOR-156",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE018B;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆌",
+    "codepoint": "U+E018C",
+    "unicode_name": "VARIATION SELECTOR-157",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE018C;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆍",
+    "codepoint": "U+E018D",
+    "unicode_name": "VARIATION SELECTOR-158",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE018D;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆎",
+    "codepoint": "U+E018E",
+    "unicode_name": "VARIATION SELECTOR-159",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE018E;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆏",
+    "codepoint": "U+E018F",
+    "unicode_name": "VARIATION SELECTOR-160",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE018F;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆐",
+    "codepoint": "U+E0190",
+    "unicode_name": "VARIATION SELECTOR-161",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0190;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆑",
+    "codepoint": "U+E0191",
+    "unicode_name": "VARIATION SELECTOR-162",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0191;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆒",
+    "codepoint": "U+E0192",
+    "unicode_name": "VARIATION SELECTOR-163",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0192;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆓",
+    "codepoint": "U+E0193",
+    "unicode_name": "VARIATION SELECTOR-164",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0193;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆔",
+    "codepoint": "U+E0194",
+    "unicode_name": "VARIATION SELECTOR-165",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0194;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆕",
+    "codepoint": "U+E0195",
+    "unicode_name": "VARIATION SELECTOR-166",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0195;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆖",
+    "codepoint": "U+E0196",
+    "unicode_name": "VARIATION SELECTOR-167",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0196;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆗",
+    "codepoint": "U+E0197",
+    "unicode_name": "VARIATION SELECTOR-168",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0197;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆘",
+    "codepoint": "U+E0198",
+    "unicode_name": "VARIATION SELECTOR-169",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0198;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆙",
+    "codepoint": "U+E0199",
+    "unicode_name": "VARIATION SELECTOR-170",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE0199;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆚",
+    "codepoint": "U+E019A",
+    "unicode_name": "VARIATION SELECTOR-171",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE019A;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆛",
+    "codepoint": "U+E019B",
+    "unicode_name": "VARIATION SELECTOR-172",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE019B;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆜",
+    "codepoint": "U+E019C",
+    "unicode_name": "VARIATION SELECTOR-173",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE019C;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆝",
+    "codepoint": "U+E019D",
+    "unicode_name": "VARIATION SELECTOR-174",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE019D;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆞",
+    "codepoint": "U+E019E",
+    "unicode_name": "VARIATION SELECTOR-175",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE019E;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆟",
+    "codepoint": "U+E019F",
+    "unicode_name": "VARIATION SELECTOR-176",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE019F;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆠",
+    "codepoint": "U+E01A0",
+    "unicode_name": "VARIATION SELECTOR-177",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01A0;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆡",
+    "codepoint": "U+E01A1",
+    "unicode_name": "VARIATION SELECTOR-178",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01A1;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆢",
+    "codepoint": "U+E01A2",
+    "unicode_name": "VARIATION SELECTOR-179",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01A2;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆣",
+    "codepoint": "U+E01A3",
+    "unicode_name": "VARIATION SELECTOR-180",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01A3;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆤",
+    "codepoint": "U+E01A4",
+    "unicode_name": "VARIATION SELECTOR-181",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01A4;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆥",
+    "codepoint": "U+E01A5",
+    "unicode_name": "VARIATION SELECTOR-182",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01A5;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆦",
+    "codepoint": "U+E01A6",
+    "unicode_name": "VARIATION SELECTOR-183",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01A6;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆧",
+    "codepoint": "U+E01A7",
+    "unicode_name": "VARIATION SELECTOR-184",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01A7;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆨",
+    "codepoint": "U+E01A8",
+    "unicode_name": "VARIATION SELECTOR-185",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01A8;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆩",
+    "codepoint": "U+E01A9",
+    "unicode_name": "VARIATION SELECTOR-186",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01A9;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆪",
+    "codepoint": "U+E01AA",
+    "unicode_name": "VARIATION SELECTOR-187",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01AA;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆫",
+    "codepoint": "U+E01AB",
+    "unicode_name": "VARIATION SELECTOR-188",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01AB;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆬",
+    "codepoint": "U+E01AC",
+    "unicode_name": "VARIATION SELECTOR-189",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01AC;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆭",
+    "codepoint": "U+E01AD",
+    "unicode_name": "VARIATION SELECTOR-190",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01AD;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆮",
+    "codepoint": "U+E01AE",
+    "unicode_name": "VARIATION SELECTOR-191",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01AE;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆯",
+    "codepoint": "U+E01AF",
+    "unicode_name": "VARIATION SELECTOR-192",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01AF;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆰",
+    "codepoint": "U+E01B0",
+    "unicode_name": "VARIATION SELECTOR-193",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01B0;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆱",
+    "codepoint": "U+E01B1",
+    "unicode_name": "VARIATION SELECTOR-194",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01B1;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆲",
+    "codepoint": "U+E01B2",
+    "unicode_name": "VARIATION SELECTOR-195",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01B2;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆳",
+    "codepoint": "U+E01B3",
+    "unicode_name": "VARIATION SELECTOR-196",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01B3;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆴",
+    "codepoint": "U+E01B4",
+    "unicode_name": "VARIATION SELECTOR-197",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01B4;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆵",
+    "codepoint": "U+E01B5",
+    "unicode_name": "VARIATION SELECTOR-198",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01B5;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆶",
+    "codepoint": "U+E01B6",
+    "unicode_name": "VARIATION SELECTOR-199",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01B6;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆷",
+    "codepoint": "U+E01B7",
+    "unicode_name": "VARIATION SELECTOR-200",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01B7;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆸",
+    "codepoint": "U+E01B8",
+    "unicode_name": "VARIATION SELECTOR-201",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01B8;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆹",
+    "codepoint": "U+E01B9",
+    "unicode_name": "VARIATION SELECTOR-202",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01B9;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆺",
+    "codepoint": "U+E01BA",
+    "unicode_name": "VARIATION SELECTOR-203",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01BA;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆻",
+    "codepoint": "U+E01BB",
+    "unicode_name": "VARIATION SELECTOR-204",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01BB;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆼",
+    "codepoint": "U+E01BC",
+    "unicode_name": "VARIATION SELECTOR-205",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01BC;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆽",
+    "codepoint": "U+E01BD",
+    "unicode_name": "VARIATION SELECTOR-206",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01BD;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆾",
+    "codepoint": "U+E01BE",
+    "unicode_name": "VARIATION SELECTOR-207",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01BE;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠆿",
+    "codepoint": "U+E01BF",
+    "unicode_name": "VARIATION SELECTOR-208",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01BF;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇀",
+    "codepoint": "U+E01C0",
+    "unicode_name": "VARIATION SELECTOR-209",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01C0;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇁",
+    "codepoint": "U+E01C1",
+    "unicode_name": "VARIATION SELECTOR-210",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01C1;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇂",
+    "codepoint": "U+E01C2",
+    "unicode_name": "VARIATION SELECTOR-211",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01C2;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇃",
+    "codepoint": "U+E01C3",
+    "unicode_name": "VARIATION SELECTOR-212",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01C3;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇄",
+    "codepoint": "U+E01C4",
+    "unicode_name": "VARIATION SELECTOR-213",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01C4;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇅",
+    "codepoint": "U+E01C5",
+    "unicode_name": "VARIATION SELECTOR-214",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01C5;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇆",
+    "codepoint": "U+E01C6",
+    "unicode_name": "VARIATION SELECTOR-215",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01C6;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇇",
+    "codepoint": "U+E01C7",
+    "unicode_name": "VARIATION SELECTOR-216",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01C7;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇈",
+    "codepoint": "U+E01C8",
+    "unicode_name": "VARIATION SELECTOR-217",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01C8;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇉",
+    "codepoint": "U+E01C9",
+    "unicode_name": "VARIATION SELECTOR-218",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01C9;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇊",
+    "codepoint": "U+E01CA",
+    "unicode_name": "VARIATION SELECTOR-219",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01CA;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇋",
+    "codepoint": "U+E01CB",
+    "unicode_name": "VARIATION SELECTOR-220",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01CB;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇌",
+    "codepoint": "U+E01CC",
+    "unicode_name": "VARIATION SELECTOR-221",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01CC;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇍",
+    "codepoint": "U+E01CD",
+    "unicode_name": "VARIATION SELECTOR-222",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01CD;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇎",
+    "codepoint": "U+E01CE",
+    "unicode_name": "VARIATION SELECTOR-223",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01CE;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇏",
+    "codepoint": "U+E01CF",
+    "unicode_name": "VARIATION SELECTOR-224",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01CF;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇐",
+    "codepoint": "U+E01D0",
+    "unicode_name": "VARIATION SELECTOR-225",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01D0;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇑",
+    "codepoint": "U+E01D1",
+    "unicode_name": "VARIATION SELECTOR-226",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01D1;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇒",
+    "codepoint": "U+E01D2",
+    "unicode_name": "VARIATION SELECTOR-227",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01D2;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇓",
+    "codepoint": "U+E01D3",
+    "unicode_name": "VARIATION SELECTOR-228",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01D3;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇔",
+    "codepoint": "U+E01D4",
+    "unicode_name": "VARIATION SELECTOR-229",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01D4;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇕",
+    "codepoint": "U+E01D5",
+    "unicode_name": "VARIATION SELECTOR-230",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01D5;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇖",
+    "codepoint": "U+E01D6",
+    "unicode_name": "VARIATION SELECTOR-231",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01D6;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇗",
+    "codepoint": "U+E01D7",
+    "unicode_name": "VARIATION SELECTOR-232",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01D7;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇘",
+    "codepoint": "U+E01D8",
+    "unicode_name": "VARIATION SELECTOR-233",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01D8;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇙",
+    "codepoint": "U+E01D9",
+    "unicode_name": "VARIATION SELECTOR-234",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01D9;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇚",
+    "codepoint": "U+E01DA",
+    "unicode_name": "VARIATION SELECTOR-235",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01DA;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇛",
+    "codepoint": "U+E01DB",
+    "unicode_name": "VARIATION SELECTOR-236",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01DB;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇜",
+    "codepoint": "U+E01DC",
+    "unicode_name": "VARIATION SELECTOR-237",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01DC;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇝",
+    "codepoint": "U+E01DD",
+    "unicode_name": "VARIATION SELECTOR-238",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01DD;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇞",
+    "codepoint": "U+E01DE",
+    "unicode_name": "VARIATION SELECTOR-239",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01DE;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇟",
+    "codepoint": "U+E01DF",
+    "unicode_name": "VARIATION SELECTOR-240",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01DF;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇠",
+    "codepoint": "U+E01E0",
+    "unicode_name": "VARIATION SELECTOR-241",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01E0;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇡",
+    "codepoint": "U+E01E1",
+    "unicode_name": "VARIATION SELECTOR-242",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01E1;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇢",
+    "codepoint": "U+E01E2",
+    "unicode_name": "VARIATION SELECTOR-243",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01E2;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇣",
+    "codepoint": "U+E01E3",
+    "unicode_name": "VARIATION SELECTOR-244",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01E3;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇤",
+    "codepoint": "U+E01E4",
+    "unicode_name": "VARIATION SELECTOR-245",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01E4;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇥",
+    "codepoint": "U+E01E5",
+    "unicode_name": "VARIATION SELECTOR-246",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01E5;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇦",
+    "codepoint": "U+E01E6",
+    "unicode_name": "VARIATION SELECTOR-247",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01E6;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇧",
+    "codepoint": "U+E01E7",
+    "unicode_name": "VARIATION SELECTOR-248",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01E7;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇨",
+    "codepoint": "U+E01E8",
+    "unicode_name": "VARIATION SELECTOR-249",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01E8;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇩",
+    "codepoint": "U+E01E9",
+    "unicode_name": "VARIATION SELECTOR-250",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01E9;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇪",
+    "codepoint": "U+E01EA",
+    "unicode_name": "VARIATION SELECTOR-251",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01EA;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇫",
+    "codepoint": "U+E01EB",
+    "unicode_name": "VARIATION SELECTOR-252",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01EB;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇬",
+    "codepoint": "U+E01EC",
+    "unicode_name": "VARIATION SELECTOR-253",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01EC;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇭",
+    "codepoint": "U+E01ED",
+    "unicode_name": "VARIATION SELECTOR-254",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01ED;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇮",
+    "codepoint": "U+E01EE",
+    "unicode_name": "VARIATION SELECTOR-255",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01EE;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  },
+  {
+    "character": "󠇯",
+    "codepoint": "U+E01EF",
+    "unicode_name": "VARIATION SELECTOR-256",
+    "category": "Mn",
+    "group": "Variation selectors supplement",
+    "html_entity": "&#xE01EF;",
+    "named_entity": null,
+    "notes": "Variation selector (supplement): follows a character and picks an alternate glyph form, mostly for CJK ideographs."
+  }
+]
